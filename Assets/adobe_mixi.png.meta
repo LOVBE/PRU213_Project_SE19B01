@@ -1,0 +1,2381 @@
+fileFormatVersion: 2
+guid: d49f89407df9872459dd875888bcc3a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -912594119198664065
+    second: adobe_mixi_0
+  - first:
+      213: -7595490672549408010
+    second: adobe_mixi_1
+  - first:
+      213: -3870025560614898523
+    second: adobe_mixi_2
+  - first:
+      213: -3233926215962583680
+    second: adobe_mixi_3
+  - first:
+      213: 3547399949884349689
+    second: adobe_mixi_4
+  - first:
+      213: 2727521801248660020
+    second: adobe_mixi_5
+  - first:
+      213: 2984547463061071360
+    second: adobe_mixi_6
+  - first:
+      213: -1680724241124968523
+    second: adobe_mixi_7
+  - first:
+      213: 5893692428359038336
+    second: adobe_mixi_8
+  - first:
+      213: -2812654213088999184
+    second: adobe_mixi_9
+  - first:
+      213: -8686536603573931851
+    second: adobe_mixi_10
+  - first:
+      213: 2284295966272789095
+    second: adobe_mixi_11
+  - first:
+      213: 7328993512568186045
+    second: adobe_mixi_12
+  - first:
+      213: -8714175294954213518
+    second: adobe_mixi_13
+  - first:
+      213: 7009926892749967816
+    second: adobe_mixi_14
+  - first:
+      213: -8418583253476946627
+    second: adobe_mixi_15
+  - first:
+      213: 4781031532745212029
+    second: adobe_mixi_16
+  - first:
+      213: 2495635271706133050
+    second: adobe_mixi_17
+  - first:
+      213: -8044284859922509958
+    second: adobe_mixi_18
+  - first:
+      213: 8629556263819048192
+    second: adobe_mixi_19
+  - first:
+      213: -3727739999528138998
+    second: adobe_mixi_20
+  - first:
+      213: 7752779093851859197
+    second: adobe_mixi_21
+  - first:
+      213: -4186887167825086043
+    second: adobe_mixi_22
+  - first:
+      213: 3407946190842788878
+    second: adobe_mixi_23
+  - first:
+      213: 494395888567448994
+    second: adobe_mixi_24
+  - first:
+      213: -6403900185391703882
+    second: adobe_mixi_25
+  - first:
+      213: -3016208473936590350
+    second: adobe_mixi_26
+  - first:
+      213: 6819281209148762586
+    second: adobe_mixi_27
+  - first:
+      213: 1698020506893106308
+    second: adobe_mixi_28
+  - first:
+      213: -41921565524868859
+    second: adobe_mixi_29
+  - first:
+      213: -447196344879152934
+    second: adobe_mixi_30
+  - first:
+      213: 8240072037304641562
+    second: adobe_mixi_31
+  - first:
+      213: 6920406812233879272
+    second: adobe_mixi_32
+  - first:
+      213: 6206995275215163093
+    second: adobe_mixi_33
+  - first:
+      213: 887250596812368254
+    second: adobe_mixi_34
+  - first:
+      213: 1109046049725816382
+    second: adobe_mixi_35
+  - first:
+      213: -2260335127231954251
+    second: adobe_mixi_36
+  - first:
+      213: -3466751383225485723
+    second: adobe_mixi_37
+  - first:
+      213: -6009192228699791899
+    second: adobe_mixi_38
+  - first:
+      213: -3042632789317731571
+    second: adobe_mixi_39
+  - first:
+      213: 6166289752653637278
+    second: adobe_mixi_40
+  - first:
+      213: -3623290006520074400
+    second: adobe_mixi_41
+  - first:
+      213: 8537236704169437310
+    second: adobe_mixi_42
+  - first:
+      213: 5837796542297351061
+    second: adobe_mixi_43
+  - first:
+      213: 5204810275718655891
+    second: adobe_mixi_44
+  - first:
+      213: -941008303312029160
+    second: adobe_mixi_45
+  - first:
+      213: 5996037234363330565
+    second: adobe_mixi_46
+  - first:
+      213: 6901025264521577012
+    second: adobe_mixi_47
+  - first:
+      213: 6367952444382306537
+    second: adobe_mixi_48
+  - first:
+      213: 7292533303801613209
+    second: adobe_mixi_49
+  - first:
+      213: -2979764053742441478
+    second: adobe_mixi_50
+  - first:
+      213: -4836168665180531154
+    second: adobe_mixi_51
+  - first:
+      213: -324263434453528237
+    second: adobe_mixi_52
+  - first:
+      213: -466998583753995900
+    second: adobe_mixi_53
+  - first:
+      213: 3837985374913987153
+    second: adobe_mixi_54
+  - first:
+      213: -2901738547904557295
+    second: adobe_mixi_55
+  - first:
+      213: -260513089546266261
+    second: adobe_mixi_56
+  - first:
+      213: -7481768821850412913
+    second: adobe_mixi_57
+  - first:
+      213: 4471906492069402534
+    second: adobe_mixi_58
+  - first:
+      213: 2892767359816899010
+    second: adobe_mixi_59
+  - first:
+      213: 6612064232475003677
+    second: adobe_mixi_60
+  - first:
+      213: 809644641162855667
+    second: adobe_mixi_61
+  - first:
+      213: 7721408011236352452
+    second: adobe_mixi_62
+  - first:
+      213: -4570831291936789863
+    second: adobe_mixi_63
+  - first:
+      213: -9039711959672610245
+    second: adobe_mixi_64
+  - first:
+      213: -3066417121447845694
+    second: adobe_mixi_65
+  - first:
+      213: -5263939352706572549
+    second: adobe_mixi_66
+  - first:
+      213: 2148449342069165553
+    second: adobe_mixi_67
+  - first:
+      213: -4745333934709761741
+    second: adobe_mixi_68
+  - first:
+      213: 5866517852455481700
+    second: adobe_mixi_69
+  - first:
+      213: 2479430262113519074
+    second: adobe_mixi_70
+  - first:
+      213: -4725596745337406881
+    second: adobe_mixi_71
+  - first:
+      213: 1644936043293204494
+    second: adobe_mixi_72
+  - first:
+      213: -3426910285187025233
+    second: adobe_mixi_73
+  - first:
+      213: 5395167166629363476
+    second: adobe_mixi_74
+  - first:
+      213: -4101779606398784374
+    second: adobe_mixi_75
+  - first:
+      213: -4862359760874243056
+    second: adobe_mixi_76
+  - first:
+      213: 4707299815039372838
+    second: adobe_mixi_77
+  - first:
+      213: -9089965534982523241
+    second: adobe_mixi_78
+  - first:
+      213: 8409517817799702010
+    second: adobe_mixi_79
+  - first:
+      213: -243006665923624759
+    second: adobe_mixi_80
+  - first:
+      213: 3160146290887743886
+    second: adobe_mixi_81
+  - first:
+      213: -6794981472741012941
+    second: adobe_mixi_82
+  - first:
+      213: -6038424775090218497
+    second: adobe_mixi_83
+  - first:
+      213: -386337578806760815
+    second: adobe_mixi_84
+  - first:
+      213: 1512379454184952136
+    second: adobe_mixi_85
+  - first:
+      213: 4488561048416246099
+    second: adobe_mixi_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: adobe_mixi_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1172
+        width: 94
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a9d05db70d553f0800000000000000
+      internalID: -912594119198664065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_1
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1172
+        width: 152
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f256e7d975679690800000000000000
+      internalID: -7595490672549408010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 985
+        width: 129
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4fdd3c148ea4ac0800000000000000
+      internalID: -3870025560614898523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 984
+        width: 124
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d1abb9d39ce13d0800000000000000
+      internalID: -3233926215962583680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_4
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 984
+        width: 109
+        height: 244
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc5811a575ea3130800000000000000
+      internalID: 3547399949884349689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_5
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 984
+        width: 123
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a5f8090aa1ad520800000000000000
+      internalID: 2727521801248660020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_6
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1117
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0066c07da1e3b6920800000000000000
+      internalID: 2984547463061071360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1077
+        width: 104
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7bb52253edca8e0800000000000000
+      internalID: -1680724241124968523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1118
+        width: 100
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085ffb7990a9ac150800000000000000
+      internalID: 5893692428359038336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1070
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f803d035e177f8d0800000000000000
+      internalID: -2812654213088999184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_10
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1117
+        width: 101
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b03c877bf8337780800000000000000
+      internalID: -8686536603573931851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1021
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a1c8f141373bf10800000000000000
+      internalID: 2284295966272789095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1021
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4e4cdd4c0d5b560800000000000000
+      internalID: 7328993512568186045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1021
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fe4c92db7011780800000000000000
+      internalID: -8714175294954213518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1021
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1d1d76e53484160800000000000000
+      internalID: 7009926892749967816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1021
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d4470722f2b2b80800000000000000
+      internalID: -8418583253476946627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_16
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1021
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70483919d2a95240800000000000000
+      internalID: 4781031532745212029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_17
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1021
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32caf2ae0742a220800000000000000
+      internalID: 2495635271706133050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1021
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f04445a85fc5090800000000000000
+      internalID: -8044284859922509958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_19
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 938
+        width: 64
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0057e2a53b752c770800000000000000
+      internalID: 8629556263819048192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 797
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a074c198838644cc0800000000000000
+      internalID: -3727739999528138998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_21
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 797
+        width: 104
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df86d178287679b60800000000000000
+      internalID: 7752779093851859197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_22
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 796
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9f42fcd4035e5c0800000000000000
+      internalID: -4186887167825086043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_23
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 797
+        width: 103
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c74d621057b4f20800000000000000
+      internalID: 3407946190842788878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_24
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 797
+        width: 104
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5f974f0727cd600800000000000000
+      internalID: 494395888567448994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_25
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 797
+        width: 103
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b85ba0f5b6c027a0800000000000000
+      internalID: -6403900185391703882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_26
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 758
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f98c7e9f564426d0800000000000000
+      internalID: -3016208473936590350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_27
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 637
+        width: 89
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9eece2124f2ae50800000000000000
+      internalID: 6819281209148762586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_28
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 637
+        width: 98
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c31be87a4909710800000000000000
+      internalID: 1698020506893106308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_29
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 637
+        width: 100
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501467aee801b6ff0800000000000000
+      internalID: -41921565524868859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_30
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 637
+        width: 100
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad000ae2b4d3bc9f0800000000000000
+      internalID: -447196344879152934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_31
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 637
+        width: 96
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a182c233cdd9a5270800000000000000
+      internalID: 8240072037304641562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_32
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 637
+        width: 98
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eec46074593a0060800000000000000
+      internalID: 6920406812233879272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_33
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 598
+        width: 107
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de4ab5115da32650800000000000000
+      internalID: 6206995275215163093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_34
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 598
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7921c987b5205c00800000000000000
+      internalID: 887250596812368254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_35
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 491
+        width: 117
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e1579918f146f00800000000000000
+      internalID: 1109046049725816382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_36
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 491
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b280047d2da1a0e0800000000000000
+      internalID: -2260335127231954251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_37
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 491
+        width: 159
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566304e0cff93efc0800000000000000
+      internalID: -3466751383225485723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_38
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 491
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed9f4d818f0b9ca0800000000000000
+      internalID: -6009192228699791899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_39
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 491
+        width: 127
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bb2c2499566c5d0800000000000000
+      internalID: -3042632789317731571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_40
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 563
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962d011cdf039550800000000000000
+      internalID: 6166289752653637278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_41
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 543
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fe523afec77bdc0800000000000000
+      internalID: -3623290006520074400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_42
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 539
+        width: 58
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78227bdc8b5a7670800000000000000
+      internalID: 8537236704169437310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_43
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 532
+        width: 88
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59323a67605040150800000000000000
+      internalID: 5837796542297351061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_44
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 552
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f63879e533b3840800000000000000
+      internalID: 5204810275718655891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_45
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 551
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ab46e0fedd0f2f0800000000000000
+      internalID: -941008303312029160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_46
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 459
+        width: 107
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500fd36a814363350800000000000000
+      internalID: 5996037234363330565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_47
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 459
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4320ec53aed55cf50800000000000000
+      internalID: 6901025264521577012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_48
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 343
+        width: 103
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0ecf162038f5850800000000000000
+      internalID: 6367952444382306537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_49
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 343
+        width: 124
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b0dcdf668443560800000000000000
+      internalID: 7292533303801613209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_50
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 343
+        width: 129
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb243e6160c5a6d0800000000000000
+      internalID: -2979764053742441478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_51
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 343
+        width: 142
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e261a0ed83a72ecb0800000000000000
+      internalID: -4836168665180531154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_52
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 342
+        width: 118
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351dfb7df1cff7bf0800000000000000
+      internalID: -324263434453528237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_53
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 447
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4898bb82343e489f0800000000000000
+      internalID: -466998583753995900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_54
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 342
+        width: 140
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15284ec2d53434530800000000000000
+      internalID: 3837985374913987153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_55
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 415
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f471d2a24fab7d0800000000000000
+      internalID: -2901738547904557295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_56
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 301
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69514ea9b8726cf0800000000000000
+      internalID: -260513089546266261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 302
+        width: 132
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88630a85ea6b2890800000000000000
+      internalID: -7481768821850412913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 302
+        width: 74
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a75f88e2476f0e30800000000000000
+      internalID: 4471906492069402534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_59
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 163
+        width: 167
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c91bb3569c252820800000000000000
+      internalID: 2892767359816899010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_60
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 163
+        width: 199
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b0db02365c2cb50800000000000000
+      internalID: 6612064232475003677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_61
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 163
+        width: 165
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f48fcee28f6c3b00800000000000000
+      internalID: 809644641162855667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_62
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 163
+        width: 165
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1299b2da3f72b60800000000000000
+      internalID: 7721408011236352452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_63
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 155
+        width: 138
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a2ed348252190c0800000000000000
+      internalID: -4570831291936789863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_64
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 198
+        width: 100
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b322ddbfddd7c8280800000000000000
+      internalID: -9039711959672610245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_65
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 257
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0ece6efd5e175d0800000000000000
+      internalID: -3066417121447845694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_66
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 259
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe99ba5c0bb2f6b0800000000000000
+      internalID: -5263939352706572549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_67
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 229
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd44fb2b43d0dd10800000000000000
+      internalID: 2148449342069165553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_68
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 195
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3399401adef252eb0800000000000000
+      internalID: -4745333934709761741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_69
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 188
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461b81897ee0a6150800000000000000
+      internalID: 5866517852455481700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_70
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 184
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e541a2dfa4b86220800000000000000
+      internalID: 2479430262113519074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_71
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 187
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5afb622cce4b6eb0800000000000000
+      internalID: -4725596745337406881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_72
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 122
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e006ababd9cf3d610800000000000000
+      internalID: 1644936043293204494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_73
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 123
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa67b4e804b2170d0800000000000000
+      internalID: -3426910285187025233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_74
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 13
+        width: 83
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f3bc604fb7fda40800000000000000
+      internalID: 5395167166629363476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_75
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 13
+        width: 83
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ca8ad1e2d8317c0800000000000000
+      internalID: -4101779606398784374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_76
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 85
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cffe23f8d658cb0800000000000000
+      internalID: -4862359760874243056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_77
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 81
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e0faecd30b35140800000000000000
+      internalID: 4707299815039372838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_78
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 16
+        width: 115
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796b2d2b184f9d180800000000000000
+      internalID: -9089965534982523241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_79
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 15
+        width: 144
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5f44656eb94b470800000000000000
+      internalID: 8409517817799702010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_80
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 63
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0029f89baa0acf0800000000000000
+      internalID: -243006665923624759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_81
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 16
+        width: 156
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89d1a2fe481bdb20800000000000000
+      internalID: 3160146290887743886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_82
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 64
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a49e51a5063b1a0800000000000000
+      internalID: -6794981472741012941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_83
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 15
+        width: 152
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff954d5f8a4333ca0800000000000000
+      internalID: -6038424775090218497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_84
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 63
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19aa6dbd40473aaf0800000000000000
+      internalID: -386337578806760815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_85
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 29
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8411b44c91d0df410800000000000000
+      internalID: 1512379454184952136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adobe_mixi_86
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 29
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359518bfd729a4e30800000000000000
+      internalID: 4488561048416246099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b05cd085ad7790c43bc0d00e0df2df8b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":120.0,"y":170.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      adobe_mixi_0: -912594119198664065
+      adobe_mixi_1: -7595490672549408010
+      adobe_mixi_10: -8686536603573931851
+      adobe_mixi_11: 2284295966272789095
+      adobe_mixi_12: 7328993512568186045
+      adobe_mixi_13: -8714175294954213518
+      adobe_mixi_14: 7009926892749967816
+      adobe_mixi_15: -8418583253476946627
+      adobe_mixi_16: 4781031532745212029
+      adobe_mixi_17: 2495635271706133050
+      adobe_mixi_18: -8044284859922509958
+      adobe_mixi_19: 8629556263819048192
+      adobe_mixi_2: -3870025560614898523
+      adobe_mixi_20: -3727739999528138998
+      adobe_mixi_21: 7752779093851859197
+      adobe_mixi_22: -4186887167825086043
+      adobe_mixi_23: 3407946190842788878
+      adobe_mixi_24: 494395888567448994
+      adobe_mixi_25: -6403900185391703882
+      adobe_mixi_26: -3016208473936590350
+      adobe_mixi_27: 6819281209148762586
+      adobe_mixi_28: 1698020506893106308
+      adobe_mixi_29: -41921565524868859
+      adobe_mixi_3: -3233926215962583680
+      adobe_mixi_30: -447196344879152934
+      adobe_mixi_31: 8240072037304641562
+      adobe_mixi_32: 6920406812233879272
+      adobe_mixi_33: 6206995275215163093
+      adobe_mixi_34: 887250596812368254
+      adobe_mixi_35: 1109046049725816382
+      adobe_mixi_36: -2260335127231954251
+      adobe_mixi_37: -3466751383225485723
+      adobe_mixi_38: -6009192228699791899
+      adobe_mixi_39: -3042632789317731571
+      adobe_mixi_4: 3547399949884349689
+      adobe_mixi_40: 6166289752653637278
+      adobe_mixi_41: -3623290006520074400
+      adobe_mixi_42: 8537236704169437310
+      adobe_mixi_43: 5837796542297351061
+      adobe_mixi_44: 5204810275718655891
+      adobe_mixi_45: -941008303312029160
+      adobe_mixi_46: 5996037234363330565
+      adobe_mixi_47: 6901025264521577012
+      adobe_mixi_48: 6367952444382306537
+      adobe_mixi_49: 7292533303801613209
+      adobe_mixi_5: 2727521801248660020
+      adobe_mixi_50: -2979764053742441478
+      adobe_mixi_51: -4836168665180531154
+      adobe_mixi_52: -324263434453528237
+      adobe_mixi_53: -466998583753995900
+      adobe_mixi_54: 3837985374913987153
+      adobe_mixi_55: -2901738547904557295
+      adobe_mixi_56: -260513089546266261
+      adobe_mixi_57: -7481768821850412913
+      adobe_mixi_58: 4471906492069402534
+      adobe_mixi_59: 2892767359816899010
+      adobe_mixi_6: 2984547463061071360
+      adobe_mixi_60: 6612064232475003677
+      adobe_mixi_61: 809644641162855667
+      adobe_mixi_62: 7721408011236352452
+      adobe_mixi_63: -4570831291936789863
+      adobe_mixi_64: -9039711959672610245
+      adobe_mixi_65: -3066417121447845694
+      adobe_mixi_66: -5263939352706572549
+      adobe_mixi_67: 2148449342069165553
+      adobe_mixi_68: -4745333934709761741
+      adobe_mixi_69: 5866517852455481700
+      adobe_mixi_7: -1680724241124968523
+      adobe_mixi_70: 2479430262113519074
+      adobe_mixi_71: -4725596745337406881
+      adobe_mixi_72: 1644936043293204494
+      adobe_mixi_73: -3426910285187025233
+      adobe_mixi_74: 5395167166629363476
+      adobe_mixi_75: -4101779606398784374
+      adobe_mixi_76: -4862359760874243056
+      adobe_mixi_77: 4707299815039372838
+      adobe_mixi_78: -9089965534982523241
+      adobe_mixi_79: 8409517817799702010
+      adobe_mixi_8: 5893692428359038336
+      adobe_mixi_80: -243006665923624759
+      adobe_mixi_81: 3160146290887743886
+      adobe_mixi_82: -6794981472741012941
+      adobe_mixi_83: -6038424775090218497
+      adobe_mixi_84: -386337578806760815
+      adobe_mixi_85: 1512379454184952136
+      adobe_mixi_86: 4488561048416246099
+      adobe_mixi_9: -2812654213088999184
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
