@@ -6,6 +6,8 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
+UserSettings/
+
 .vs/
 .idea/
 
@@ -14,4 +16,3 @@
 *.sln
 *.user
 *.suo
-*.tmp

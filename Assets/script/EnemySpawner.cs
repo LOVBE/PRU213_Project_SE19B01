@@ -8,32 +8,33 @@ public class EnemySpawner : MonoBehaviour
     [Header("Spawn Settings")]
     public Transform spawnPoint;
 
-    public float spawnDelay = 2f;
+    public float spawnInterval = 2f;
 
-    private GameObject currentEnemy;
+    public int maxEnemies = 10;
 
-    void Start()
-    {
-        SpawnEnemy();
-    }
+    private float timer;
 
     void Update()
     {
-        if (currentEnemy == null)
-        {
-            spawnDelay -= Time.deltaTime;
+        timer += Time.deltaTime;
 
-            if (spawnDelay <= 0)
+        if (timer >= spawnInterval)
+        {
+            GameObject[] enemies =
+                GameObject.FindGameObjectsWithTag("Enemy");
+
+            if (enemies.Length < maxEnemies)
             {
                 SpawnEnemy();
-                spawnDelay = 2f;
             }
+
+            timer = 0f;
         }
     }
 
     void SpawnEnemy()
     {
-        currentEnemy = Instantiate(
+        Instantiate(
             enemyPrefab,
             spawnPoint.position,
             Quaternion.identity

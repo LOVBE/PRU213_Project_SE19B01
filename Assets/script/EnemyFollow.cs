@@ -15,9 +15,15 @@ public class EnemyFollow : MonoBehaviour
     {
         if (player != null)
         {
-            transform.position = Vector2.MoveTowards(
+            Vector3 targetPos = new Vector3(
+                player.position.x,
+                player.position.y,
+                transform.position.z
+            );
+
+            transform.position = Vector3.MoveTowards(
                 transform.position,
-                player.position,
+                targetPos,
                 moveSpeed * Time.deltaTime
             );
         }
