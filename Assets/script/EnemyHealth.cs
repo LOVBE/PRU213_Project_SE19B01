@@ -2,7 +2,7 @@
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 6;
+    public int maxHealth = 2;
 
     private int currentHealth;
 

@@ -14,14 +14,13 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Shoot")]
     public GameObject bulletPrefab;
+    // firePoint này tí nữa ông kéo Object "Muzzle" (đầu nòng) của khẩu AK vào nhé
     public Transform firePoint;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
         animator = GetComponent<Animator>();
-
         sr = GetComponent<SpriteRenderer>();
     }
 
@@ -29,46 +28,19 @@ public class PlayerMovement : MonoBehaviour
     {
         moveInput = Vector2.zero;
 
-        if (Keyboard.current.wKey.isPressed ||
-            Keyboard.current.upArrowKey.isPressed)
-        {
-            moveInput.y = 1;
-        }
+        if (Keyboard.current.wKey.isPressed || Keyboard.current.upArrowKey.isPressed) moveInput.y = 1;
+        if (Keyboard.current.sKey.isPressed || Keyboard.current.downArrowKey.isPressed) moveInput.y = -1;
+        if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed) moveInput.x = -1;
+        if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed) moveInput.x = 1;
 
-        if (Keyboard.current.sKey.isPressed ||
-            Keyboard.current.downArrowKey.isPressed)
-        {
-            moveInput.y = -1;
-        }
-
-        if (Keyboard.current.aKey.isPressed ||
-            Keyboard.current.leftArrowKey.isPressed)
-        {
-            moveInput.x = -1;
-        }
-
-        if (Keyboard.current.dKey.isPressed ||
-            Keyboard.current.rightArrowKey.isPressed)
-        {
-            moveInput.x = 1;
-        }
-
-        // Chuẩn hóa vector
         moveInput = moveInput.normalized;
 
         // Animation
         bool isMoving = moveInput != Vector2.zero;
         animator.SetBool("isMoving", isMoving);
 
-        // Flip nhân vật
-        if (moveInput.x > 0)
-        {
-            sr.flipX = false;
-        }
-        else if (moveInput.x < 0)
-        {
-            sr.flipX = true;
-        }
+        // --- Xử lý Lật (Flip) Player theo hướng chuột thay vì hướng đi ---
+        HandlePlayerFlip();
 
         // Bắn
         if (Mouse.current.leftButton.wasPressedThisFrame)
@@ -79,43 +51,42 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Di chuyển bằng Rigidbody2D
-        rb.MovePosition(
-            rb.position +
-            moveInput * moveSpeed * Time.fixedDeltaTime
-        );
+        rb.MovePosition(rb.position + moveInput * moveSpeed * Time.fixedDeltaTime);
+    }
+
+    void HandlePlayerFlip()
+    {
+        // Lấy vị trí chuột để biết Player đang nhìn về bên trái hay bên phải
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+
+        if (mousePosition.x > transform.position.x)
+        {
+            sr.flipX = false; // Chuột bên phải -> Nhìn bên phải
+        }
+        else
+        {
+            sr.flipX = true;  // Chuột bên trái -> Nhìn bên trái
+        }
     }
 
     void Shoot()
     {
-        // Lấy vị trí chuột trong world
-        Vector3 mousePosition =
-            Camera.main.ScreenToWorldPoint(
-                Mouse.current.position.ReadValue()
-            );
+        if (bulletPrefab == null || firePoint == null) return;
 
-        // Hướng bắn
-        Vector2 direction =
-            (mousePosition - firePoint.position);
+        // 1. Tạo viên đạn ngay tại vị trí nòng súng (firePoint)
+        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
 
-        // Tạo đạn
-        GameObject bullet =
-            Instantiate(
-                bulletPrefab,
-                firePoint.position,
-                Quaternion.identity
-            );
+        // 2. Lấy vị trí chuột trong không gian Game (World Space) bằng New Input System
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
 
-        // Xoay đạn
-        float angle =
-            Mathf.Atan2(direction.y, direction.x)
-            * Mathf.Rad2Deg;
+        // 3. Tính toán hướng chuẩn xác: Lấy vị trí chuột trừ đi vị trí nòng súng
+        Vector2 shootDirection = (mousePosition - firePoint.position).normalized;
 
-        bullet.transform.rotation =
-            Quaternion.Euler(0, 0, angle);
-
-        // Truyền hướng
-        bullet.GetComponent<Bullet>()
-              .SetDirection(direction);
+        // 4. Gọi script Bullet để truyền hướng bay chính xác cho viên đạn
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
+        if (bulletScript != null)
+        {
+            bulletScript.SetDirection(shootDirection);
+        }
     }
 }

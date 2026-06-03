@@ -13,6 +13,13 @@ public class Bullet : MonoBehaviour
     public void SetDirection(Vector2 direction)
     {
         moveDirection = direction.normalized;
+
+        if (moveDirection != Vector2.zero)
+        {
+            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90f;
+
+            transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        }
     }
 
     void Start()
