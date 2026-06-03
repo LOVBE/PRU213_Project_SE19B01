@@ -71,7 +71,7 @@ public class IntroManage : MonoBehaviour
 
     public void GoBackToMenu()
     {
-        SceneManager.LoadScene("Mainmenu");
+        SceneManager.LoadScene("MainMenu");
     }
 
     void ShowSlide()
@@ -87,7 +87,7 @@ public class IntroManage : MonoBehaviour
         currentSlide++;
         if (currentSlide >= slides.Length)
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("MainGame");
             return;
         }
         ShowSlide();

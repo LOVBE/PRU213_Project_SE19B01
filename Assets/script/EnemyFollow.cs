@@ -6,6 +6,7 @@ public class EnemyFollow : MonoBehaviour
 
     private Transform player;
     private SpriteRenderer sr;
+    private Rigidbody2D rb; // 1. Khai báo thêm Rigidbody2D
 
     void Start()
     {
@@ -21,23 +22,19 @@ public class EnemyFollow : MonoBehaviour
         }
 
         sr = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>(); // Lấy component Rigidbody2D của quái
     }
 
-    void Update()
+    // 2. Đổi Update thành FixedUpdate (Luật bất thành văn: Đụng đến vật lý di chuyển LÀ PHẢI DÙNG FixedUpdate)
+    void FixedUpdate()
     {
         if (player != null)
         {
-            Vector3 targetPos = new Vector3(
-                player.position.x,
-                player.position.y,
-                transform.position.z
-            );
+            // Tính toán hướng đi (Vector chỉ từ quái thẳng vào mặt Player)
+            Vector2 direction = (player.position - transform.position).normalized;
 
-            transform.position = Vector3.MoveTowards(
-                transform.position,
-                targetPos,
-                moveSpeed * Time.deltaTime
-            );
+            // Dùng MovePosition của Rigidbody để đi. Cái này giúp quái tự biết trượt mượt mà khi chạm tường!
+            rb.MovePosition(rb.position + direction * moveSpeed * Time.fixedDeltaTime);
 
             // Đổi hướng nhìn
             if (player.position.x > transform.position.x)
@@ -51,6 +48,8 @@ public class EnemyFollow : MonoBehaviour
         }
     }
 
+    // Tớ thấy ông đang xài lại OnCollision (Va chạm cứng). 
+    // Nhớ là nếu dùng cái này, quái và Player sẽ đẩy nhau côm cốp nhé.
     protected virtual void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))

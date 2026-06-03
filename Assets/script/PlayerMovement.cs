@@ -17,6 +17,10 @@ public class PlayerMovement : MonoBehaviour
     // firePoint này tí nữa ông kéo Object "Muzzle" (đầu nòng) của khẩu AK vào nhé
     public Transform firePoint;
 
+    [Header("Âm thanh Settings")]
+    public AudioSource sfxSource;     // Kéo cái Loa vừa tạo vào đây
+    public AudioClip shootSound;      // Kéo file mp3/wav tiếng súng vào đây
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -87,6 +91,13 @@ public class PlayerMovement : MonoBehaviour
         if (bulletScript != null)
         {
             bulletScript.SetDirection(shootDirection);
+        }
+
+        // 2. Logic phát âm thanh (Thêm đoạn này vào)
+        if (sfxSource != null && shootSound != null)
+        {
+            // Dùng PlayOneShot để sấy AK đạn ra liên tục tiếng không bị ngắt quãng
+            sfxSource.PlayOneShot(shootSound);
         }
     }
 }

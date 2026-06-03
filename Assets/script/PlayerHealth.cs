@@ -31,7 +31,15 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("GAME OVER");
-        Destroy(gameObject);
+        Debug.Log("GAME OVER - Chạy UI chết!");
+
+        // Báo cáo cho tổng tư lệnh GameManager biết để dừng hình, bật bảng UI và đổi nhạc
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.PlayerDied();
+        }
+
+        // Tắt (ẩn) nhân vật đi thay vì Destroy để tránh bị lỗi văng game do Camera/Quái mất mục tiêu
+        gameObject.SetActive(false);
     }
 }
