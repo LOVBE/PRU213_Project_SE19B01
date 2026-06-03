@@ -19,12 +19,20 @@ public class BossBullet : MonoBehaviour
     public void SetDirection(Vector2 direction)
     {
         moveDirection = direction.normalized;
+
+        if (moveDirection != Vector2.zero)
+        {
+            // ẢNH NGANG THÌ KHÔNG TRỪ 90 NỮA! Để mộc mạc thế này thôi
+            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg;
+
+            // Xoay góc Z của viên đạn theo đúng hướng bay
+            transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        }
     }
 
     void Update()
     {
-        // Đạn tự động tịnh tiến theo hướng đã định
-        transform.Translate(moveDirection * speed * Time.deltaTime);
+        transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
