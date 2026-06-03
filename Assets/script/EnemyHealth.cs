@@ -2,7 +2,7 @@
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 6;
 
     private int currentHealth;
 
@@ -11,7 +11,6 @@ public class EnemyHealth : MonoBehaviour
         currentHealth = maxHealth;
     }
 
-    // Hàm nhận damage
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -24,7 +23,6 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    // Enemy chết
     void Die()
     {
         Destroy(gameObject);

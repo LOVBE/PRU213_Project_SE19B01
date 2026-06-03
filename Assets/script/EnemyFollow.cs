@@ -5,10 +5,22 @@ public class EnemyFollow : MonoBehaviour
     public float moveSpeed = 2f;
 
     private Transform player;
+    private SpriteRenderer sr;
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+        else
+        {
+            Debug.LogError("Không tìm thấy Player trong Scene!");
+        }
+
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -26,6 +38,16 @@ public class EnemyFollow : MonoBehaviour
                 targetPos,
                 moveSpeed * Time.deltaTime
             );
+
+            // Đổi hướng nhìn
+            if (player.position.x > transform.position.x)
+            {
+                sr.flipX = false; // nhìn phải
+            }
+            else if (player.position.x < transform.position.x)
+            {
+                sr.flipX = true; // nhìn trái
+            }
         }
     }
 
