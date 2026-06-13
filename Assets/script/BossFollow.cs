@@ -12,8 +12,8 @@ namespace Assets.script
 
                 if (playerHealth != null)
                 {
-                    playerHealth.TakeDamage(2); // Boss đấm 2 máu
-                    Debug.Log("Boss đấm Player 2 máu!"); // Thêm dòng này để test
+                    playerHealth.TakeDamage(2); 
+                    Debug.Log("Boss đấm Player 2 máu!");
                 }
             }
         }

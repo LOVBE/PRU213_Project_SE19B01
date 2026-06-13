@@ -34,7 +34,7 @@ public class IntroManage : MonoBehaviour
         textFrame.SetActive(false);
         storyText.text = "";
 
-        // Ẩn nút Back lúc đầu
+        
         if (backButton != null)
             backButton.SetActive(false);
 
@@ -46,7 +46,6 @@ public class IntroManage : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            // Nếu click vào UI thì bỏ qua
             if (EventSystem.current.IsPointerOverGameObject())
                 return;
 
@@ -71,7 +70,7 @@ public class IntroManage : MonoBehaviour
 
     public void GoBackToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Mainmenu");
     }
 
     void ShowSlide()

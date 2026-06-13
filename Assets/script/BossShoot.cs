@@ -3,18 +3,17 @@
 public class BossShoot : MonoBehaviour
 {
     [Header("References")]
-    public GameObject bamiaBulletPrefab; // Kéo Prefab đạn bã mía ở kho Project vào đây
-    public Transform firePoint;          // Kéo Object "Mouth" vào đây
+    public GameObject bamiaBulletPrefab; 
+    public Transform firePoint;        
 
     [Header("Shoot Settings")]
-    public float fireRate = 2f;          // Tốc độ bắn (cứ 2 giây bắn 1 lần)
+    public float fireRate = 2f;          
 
     private float timer;
     private Transform player;
 
     void Start()
     {
-        // Tự động đi tìm thằng Player trên bản đồ thông qua Tag
         GameObject target = GameObject.FindGameObjectWithTag("Player");
         if (target != null)
         {
@@ -26,13 +25,12 @@ public class BossShoot : MonoBehaviour
     {
         if (player == null) return;
 
-        // Bộ đếm thời gian
         timer += Time.deltaTime;
 
         if (timer >= fireRate)
         {
             Shoot();
-            timer = 0f; // Reset lại đồng hồ
+            timer = 0f;
         }
     }
 
@@ -44,13 +42,12 @@ public class BossShoot : MonoBehaviour
             return;
         }
 
-        // 1. Sinh ra viên đạn ngay tại vị trí nòng súng (firePoint)
         GameObject bulletObj = Instantiate(bamiaBulletPrefab, firePoint.position, Quaternion.identity);
 
-        // 2. Tính toán hướng: Lấy vị trí Player trừ vị trí nòng súng để ra vector hướng thẳng vào mặt Player
+      
         Vector2 targetDirection = (player.position - firePoint.position).normalized;
 
-        // 3. Ép viên đạn bay theo hướng vừa tính
+       
         BossBullet bulletScript = bulletObj.GetComponent<BossBullet>();
         if (bulletScript != null)
         {
