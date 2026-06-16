@@ -1,0 +1,2431 @@
+fileFormatVersion: 2
+guid: 75f093fdc6e31d54baae9010d1eb62e4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9220548226416719790
+    second: bamia_0
+  - first:
+      213: -2503677943007473824
+    second: bamia_1
+  - first:
+      213: 5475283380495360566
+    second: bamia_2
+  - first:
+      213: -5429771713963215917
+    second: bamia_3
+  - first:
+      213: -9012431791891630433
+    second: bamia_4
+  - first:
+      213: 417572230580868311
+    second: bamia_5
+  - first:
+      213: 7182682460757770604
+    second: bamia_6
+  - first:
+      213: -5736441410432753728
+    second: bamia_7
+  - first:
+      213: -8303795310676786757
+    second: bamia_8
+  - first:
+      213: -5356118339482876544
+    second: bamia_9
+  - first:
+      213: 6255545802158956859
+    second: bamia_10
+  - first:
+      213: -1521247778587332243
+    second: bamia_11
+  - first:
+      213: 4514315013906800202
+    second: bamia_12
+  - first:
+      213: -89768226126431681
+    second: bamia_13
+  - first:
+      213: 5722823050564218108
+    second: bamia_14
+  - first:
+      213: -7490964830555209243
+    second: bamia_15
+  - first:
+      213: -4147225011820830977
+    second: bamia_16
+  - first:
+      213: -414585586879092752
+    second: bamia_17
+  - first:
+      213: -4199701443352358282
+    second: bamia_18
+  - first:
+      213: 5998830188393098914
+    second: bamia_19
+  - first:
+      213: -7963446133053080774
+    second: bamia_20
+  - first:
+      213: -3040336665784049054
+    second: bamia_21
+  - first:
+      213: 1452420159459909044
+    second: bamia_22
+  - first:
+      213: 7558735765545147997
+    second: bamia_23
+  - first:
+      213: 1898661482276830540
+    second: bamia_24
+  - first:
+      213: 6301249799543329707
+    second: bamia_25
+  - first:
+      213: 231316635384355363
+    second: bamia_26
+  - first:
+      213: -8883059952222897156
+    second: bamia_27
+  - first:
+      213: 8459377022558751344
+    second: bamia_28
+  - first:
+      213: -3053166263035593845
+    second: bamia_29
+  - first:
+      213: 1516084808564264496
+    second: bamia_30
+  - first:
+      213: 6891981347393971777
+    second: bamia_31
+  - first:
+      213: -2288129119802070632
+    second: bamia_32
+  - first:
+      213: -1800854216605764553
+    second: bamia_33
+  - first:
+      213: 8700148788967821112
+    second: bamia_34
+  - first:
+      213: 1866508326392337049
+    second: bamia_35
+  - first:
+      213: -7456314962522750685
+    second: bamia_36
+  - first:
+      213: -5080712808475664072
+    second: bamia_37
+  - first:
+      213: 8600972458459157997
+    second: bamia_38
+  - first:
+      213: 5786175063390298171
+    second: bamia_39
+  - first:
+      213: 1704953988587765798
+    second: bamia_40
+  - first:
+      213: -638318838771737257
+    second: bamia_41
+  - first:
+      213: 2282956671599672101
+    second: bamia_42
+  - first:
+      213: -3552336946396301597
+    second: bamia_43
+  - first:
+      213: 7230434588510769388
+    second: bamia_44
+  - first:
+      213: -3392105940863304006
+    second: bamia_45
+  - first:
+      213: 9087334880921674015
+    second: bamia_46
+  - first:
+      213: 8207498382400570839
+    second: bamia_47
+  - first:
+      213: 6395872870974861205
+    second: bamia_48
+  - first:
+      213: -8455370615599606992
+    second: bamia_49
+  - first:
+      213: 8228727603252639819
+    second: bamia_50
+  - first:
+      213: 6011179482026754164
+    second: bamia_51
+  - first:
+      213: -3950669958281984522
+    second: bamia_52
+  - first:
+      213: -4584061108299051746
+    second: bamia_53
+  - first:
+      213: 3455937845836769361
+    second: bamia_54
+  - first:
+      213: 153549636920264111
+    second: bamia_55
+  - first:
+      213: 7071538687358313990
+    second: bamia_56
+  - first:
+      213: -5502337326489902703
+    second: bamia_57
+  - first:
+      213: 2984010849313247357
+    second: bamia_58
+  - first:
+      213: 6243312449991644732
+    second: bamia_59
+  - first:
+      213: -1924361809480156057
+    second: bamia_60
+  - first:
+      213: -6314734054329856847
+    second: bamia_61
+  - first:
+      213: -8930338119078636570
+    second: bamia_62
+  - first:
+      213: 2252985581403317240
+    second: bamia_63
+  - first:
+      213: 4542774392214710051
+    second: bamia_64
+  - first:
+      213: 2981595165869748369
+    second: bamia_65
+  - first:
+      213: 5763327380994363526
+    second: bamia_66
+  - first:
+      213: 8754404928049204595
+    second: bamia_67
+  - first:
+      213: 7822489884531783916
+    second: bamia_68
+  - first:
+      213: -3585808551737992030
+    second: bamia_69
+  - first:
+      213: -1329193820329011478
+    second: bamia_70
+  - first:
+      213: 7549124456833115334
+    second: bamia_71
+  - first:
+      213: -6507470113684548290
+    second: bamia_72
+  - first:
+      213: -2330639227438676574
+    second: bamia_73
+  - first:
+      213: 2025340689192956227
+    second: bamia_74
+  - first:
+      213: -2759378517395471220
+    second: bamia_75
+  - first:
+      213: -935908810159953256
+    second: bamia_76
+  - first:
+      213: 4110951151923090743
+    second: bamia_77
+  - first:
+      213: -5396446311487843753
+    second: bamia_78
+  - first:
+      213: 8565833790009782055
+    second: bamia_79
+  - first:
+      213: -8584892053312369938
+    second: bamia_80
+  - first:
+      213: 6853928661007788713
+    second: bamia_81
+  - first:
+      213: -9069978909259997992
+    second: bamia_82
+  - first:
+      213: -332580569936373316
+    second: bamia_83
+  - first:
+      213: -8508524281468096548
+    second: bamia_84
+  - first:
+      213: 8458120420155128026
+    second: bamia_85
+  - first:
+      213: -3230388672240969631
+    second: bamia_86
+  - first:
+      213: 2194569961108861390
+    second: bamia_87
+  - first:
+      213: 9077040572950575284
+    second: bamia_88
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bamia_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1029
+        width: 109
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258c21a9d380a0080800000000000000
+      internalID: -9220548226416719790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1035
+        width: 145
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f0f070d26214dd0800000000000000
+      internalID: -2503677943007473824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 887
+        width: 189
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632a60ba93d1cfb40800000000000000
+      internalID: 5475283380495360566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_3
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 887
+        width: 172
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d332c1f46395a4b0800000000000000
+      internalID: -5429771713963215917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_4
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 887
+        width: 146
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96bcd109096de280800000000000000
+      internalID: -9012431791891630433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 887
+        width: 156
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d417d73bb38bc500800000000000000
+      internalID: 417572230580868311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_6
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 887
+        width: 162
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6145ef74a30ea360800000000000000
+      internalID: 7182682460757770604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 975
+        width: 110
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf90502ee01460b0800000000000000
+      internalID: -5736441410432753728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1025
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb14e8b092ef2cc80800000000000000
+      internalID: -8303795310676786757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 975
+        width: 86
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0850b288fbe3ba5b0800000000000000
+      internalID: -5356118339482876544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 911
+        width: 300
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31eed583c920d650800000000000000
+      internalID: 6255545802158956859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_11
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 911
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6133fd843173eae0800000000000000
+      internalID: -1521247778587332243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_12
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 839
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e9028569116ae30800000000000000
+      internalID: 4514315013906800202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 733
+        width: 162
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3afd91264411cef0800000000000000
+      internalID: -89768226126431681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 735
+        width: 136
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc2c416e3d8b6f40800000000000000
+      internalID: 5722823050564218108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_15
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 735
+        width: 150
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e100d9ec2fba0890800000000000000
+      internalID: -7490964830555209243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_16
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 735
+        width: 138
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeddce13d81276c0800000000000000
+      internalID: -4147225011820830977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_17
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 735
+        width: 130
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f72315fa981f3af0800000000000000
+      internalID: -414585586879092752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_18
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 729
+        width: 130
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672994ac9c9a7b5c0800000000000000
+      internalID: -4199701443352358282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_19
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 727
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae6f0fe540204350800000000000000
+      internalID: 5998830188393098914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_20
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 815
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bb9632fe72c7190800000000000000
+      internalID: -7963446133053080774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_21
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 792
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262a85e29ed8ec5d0800000000000000
+      internalID: -3040336665784049054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_22
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 736
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd59359078082410800000000000000
+      internalID: 1452420159459909044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_23
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 735
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5edb50812606e860800000000000000
+      internalID: 7558735765545147997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_24
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 737
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4db3dffe86695a10800000000000000
+      internalID: 1898661482276830540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 740
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba318c6ae49827750800000000000000
+      internalID: 6301249799543329707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 739
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a19ba114dc53300800000000000000
+      internalID: 231316635384355363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_27
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 738
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb7145b90809b480800000000000000
+      internalID: -8883059952222897156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_28
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 735
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a47b2159eb56570800000000000000
+      internalID: 8459377022558751344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_29
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 733
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b7e8bc579f0a5d0800000000000000
+      internalID: -3053166263035593845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_30
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 735
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ec6dfc9173a0510800000000000000
+      internalID: 1516084808564264496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_31
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 727
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146290a258c35af50800000000000000
+      internalID: 6891981347393971777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_32
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 731
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89968f540beee30e0800000000000000
+      internalID: -2288129119802070632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_33
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 727
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734f2fe91a41207e0800000000000000
+      internalID: -1800854216605764553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_34
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 679
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fc87b6a332db870800000000000000
+      internalID: 8700148788967821112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 581
+        width: 151
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9929ce40f6b27e910800000000000000
+      internalID: 1866508326392337049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_36
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 581
+        width: 155
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321c66dfb09d58890800000000000000
+      internalID: -7456314962522750685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_37
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 583
+        width: 146
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831e7059e9ead79b0800000000000000
+      internalID: -5080712808475664072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 580
+        width: 145
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5506d81eacc5770800000000000000
+      internalID: 8600972458459157997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_39
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 580
+        width: 154
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b302a9d409f9c4050800000000000000
+      internalID: 5786175063390298171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_40
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 580
+        width: 146
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620c8209e9639a710800000000000000
+      internalID: 1704953988587765798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_41
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 583
+        width: 130
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d1299e56c3427f0800000000000000
+      internalID: -638318838771737257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_42
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 589
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b7e484ff0beaf10800000000000000
+      internalID: 2282956671599672101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_43
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 583
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e67d8b4e5093bec0800000000000000
+      internalID: -3552336946396301597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_44
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 527
+        width: 224
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0d1e323f9a75460800000000000000
+      internalID: 7230434588510769388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 439
+        width: 158
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abeb9527e91dce0d0800000000000000
+      internalID: -3392105940863304006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 535
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f116a5c6de2bc1e70800000000000000
+      internalID: 9087334880921674015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_47
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 439
+        width: 157
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d544992b44e6e170800000000000000
+      internalID: 8207498382400570839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_48
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 437
+        width: 178
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fa3074d74b2c850800000000000000
+      internalID: 6395872870974861205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_49
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 531
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033d8ec393d78aa80800000000000000
+      internalID: -8455370615599606992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_50
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 435
+        width: 202
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4833515820523270800000000000000
+      internalID: 8228727603252639819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_51
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 437
+        width: 170
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470425be3effb6350800000000000000
+      internalID: 6011179482026754164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_52
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 432
+        width: 170
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f58bcfba966c29c0800000000000000
+      internalID: -3950669958281984522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_53
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 391
+        width: 166
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dc62b95b42260c0800000000000000
+      internalID: -4584061108299051746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_54
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 391
+        width: 132
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158ede21925f5ff20800000000000000
+      internalID: 3455937845836769361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 279
+        width: 138
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5c50cc494812200800000000000000
+      internalID: 153549636920264111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_56
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 379
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606ac6338f6232260800000000000000
+      internalID: 7071538687358313990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 279
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191623caa55c3a3b0800000000000000
+      internalID: -5502337326489902703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_58
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 279
+        width: 120
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d705a37be06596920800000000000000
+      internalID: 2984010849313247357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_59
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 279
+        width: 274
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3696834893b4a650800000000000000
+      internalID: 6243312449991644732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_60
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 279
+        width: 250
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c7b96412b4b45e0800000000000000
+      internalID: -1924361809480156057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_61
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 343
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc4b90a5de8d58a0800000000000000
+      internalID: -6314734054329856847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_62
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 346
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e31030bbc0111480800000000000000
+      internalID: -8930338119078636570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_63
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 333
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f32f9f0376344f10800000000000000
+      internalID: 2252985581403317240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_64
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 311
+        width: 117
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327e2b6bd3d2b0f30800000000000000
+      internalID: 4542774392214710051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_65
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 348
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19030b59101c06920800000000000000
+      internalID: 2981595165869748369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_66
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 353
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6809374b7b37bff40800000000000000
+      internalID: 5763327380994363526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_67
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 303
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d4d4436e4ed7970800000000000000
+      internalID: 8754404928049204595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_68
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 327
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87a9aca111f8c60800000000000000
+      internalID: 7822489884531783916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_69
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 303
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac5911ee16ac3ec0800000000000000
+      internalID: -3585808551737992030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_70
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 303
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae615a54341cd8de0800000000000000
+      internalID: -1329193820329011478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_71
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 279
+        width: 26
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c460ce42b0e3c860800000000000000
+      internalID: 7549124456833115334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_72
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 279
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e359c5fd862d0b5a0800000000000000
+      internalID: -6507470113684548290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 283
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a54dec88f7e7afd0800000000000000
+      internalID: -2330639227438676574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_74
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 281
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341bd7840a47b1c10800000000000000
+      internalID: 2025340689192956227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_75
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 231
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c848cc5bbd7b4b9d0800000000000000
+      internalID: -2759378517395471220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_76
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 143
+        width: 154
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ae14455ebf203f0800000000000000
+      internalID: -935908810159953256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_77
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 143
+        width: 154
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735db5bba480d0930800000000000000
+      internalID: 4110951151923090743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_78
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 143
+        width: 138
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752dc4adba8fb15b0800000000000000
+      internalID: -5396446311487843753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_79
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 143
+        width: 130
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f2292c274ffd670800000000000000
+      internalID: 8565833790009782055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_80
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 143
+        width: 138
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea0e3789265cd880800000000000000
+      internalID: -8584892053312369938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_81
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 143
+        width: 146
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaec33bdcb0e1f50800000000000000
+      internalID: 6853928661007788713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_82
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 103
+        width: 82
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcd541ac36f02280800000000000000
+      internalID: -9069978909259997992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_83
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 23
+        width: 170
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9deb5dbbf626bf0800000000000000
+      internalID: -332580569936373316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_84
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 13
+        width: 170
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfee400f36abe980800000000000000
+      internalID: -8508524281468096548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_85
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 15
+        width: 202
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8f2d685b7416570800000000000000
+      internalID: 8458120420155128026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_86
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 23
+        width: 202
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16891a03e9a5b23d0800000000000000
+      internalID: -3230388672240969631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_87
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 22
+        width: 218
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1f2a690cda47e10800000000000000
+      internalID: 2194569961108861390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bamia_88
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 22
+        width: 202
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8f6821f4028fd70800000000000000
+      internalID: 9077040572950575284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bamia_0: -9220548226416719790
+      bamia_1: -2503677943007473824
+      bamia_10: 6255545802158956859
+      bamia_11: -1521247778587332243
+      bamia_12: 4514315013906800202
+      bamia_13: -89768226126431681
+      bamia_14: 5722823050564218108
+      bamia_15: -7490964830555209243
+      bamia_16: -4147225011820830977
+      bamia_17: -414585586879092752
+      bamia_18: -4199701443352358282
+      bamia_19: 5998830188393098914
+      bamia_2: 5475283380495360566
+      bamia_20: -7963446133053080774
+      bamia_21: -3040336665784049054
+      bamia_22: 1452420159459909044
+      bamia_23: 7558735765545147997
+      bamia_24: 1898661482276830540
+      bamia_25: 6301249799543329707
+      bamia_26: 231316635384355363
+      bamia_27: -8883059952222897156
+      bamia_28: 8459377022558751344
+      bamia_29: -3053166263035593845
+      bamia_3: -5429771713963215917
+      bamia_30: 1516084808564264496
+      bamia_31: 6891981347393971777
+      bamia_32: -2288129119802070632
+      bamia_33: -1800854216605764553
+      bamia_34: 8700148788967821112
+      bamia_35: 1866508326392337049
+      bamia_36: -7456314962522750685
+      bamia_37: -5080712808475664072
+      bamia_38: 8600972458459157997
+      bamia_39: 5786175063390298171
+      bamia_4: -9012431791891630433
+      bamia_40: 1704953988587765798
+      bamia_41: -638318838771737257
+      bamia_42: 2282956671599672101
+      bamia_43: -3552336946396301597
+      bamia_44: 7230434588510769388
+      bamia_45: -3392105940863304006
+      bamia_46: 9087334880921674015
+      bamia_47: 8207498382400570839
+      bamia_48: 6395872870974861205
+      bamia_49: -8455370615599606992
+      bamia_5: 417572230580868311
+      bamia_50: 8228727603252639819
+      bamia_51: 6011179482026754164
+      bamia_52: -3950669958281984522
+      bamia_53: -4584061108299051746
+      bamia_54: 3455937845836769361
+      bamia_55: 153549636920264111
+      bamia_56: 7071538687358313990
+      bamia_57: -5502337326489902703
+      bamia_58: 2984010849313247357
+      bamia_59: 6243312449991644732
+      bamia_6: 7182682460757770604
+      bamia_60: -1924361809480156057
+      bamia_61: -6314734054329856847
+      bamia_62: -8930338119078636570
+      bamia_63: 2252985581403317240
+      bamia_64: 4542774392214710051
+      bamia_65: 2981595165869748369
+      bamia_66: 5763327380994363526
+      bamia_67: 8754404928049204595
+      bamia_68: 7822489884531783916
+      bamia_69: -3585808551737992030
+      bamia_7: -5736441410432753728
+      bamia_70: -1329193820329011478
+      bamia_71: 7549124456833115334
+      bamia_72: -6507470113684548290
+      bamia_73: -2330639227438676574
+      bamia_74: 2025340689192956227
+      bamia_75: -2759378517395471220
+      bamia_76: -935908810159953256
+      bamia_77: 4110951151923090743
+      bamia_78: -5396446311487843753
+      bamia_79: 8565833790009782055
+      bamia_8: -8303795310676786757
+      bamia_80: -8584892053312369938
+      bamia_81: 6853928661007788713
+      bamia_82: -9069978909259997992
+      bamia_83: -332580569936373316
+      bamia_84: -8508524281468096548
+      bamia_85: 8458120420155128026
+      bamia_86: -3230388672240969631
+      bamia_87: 2194569961108861390
+      bamia_88: 9077040572950575284
+      bamia_9: -5356118339482876544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

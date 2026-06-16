@@ -11,11 +11,14 @@ public class BossShoot : MonoBehaviour
 
     private float timer;
     private Transform player;
+    private Animator animator;
 
     void Start()
     {
-        // Tự động đi tìm thằng Player trên bản đồ thông qua Tag
+        animator = GetComponent<Animator>();
+
         GameObject target = GameObject.FindGameObjectWithTag("Player");
+
         if (target != null)
         {
             player = target.transform;
@@ -31,8 +34,11 @@ public class BossShoot : MonoBehaviour
 
         if (timer >= fireRate)
         {
+            animator.SetTrigger("Shoot");
+
             Shoot();
-            timer = 0f; // Reset lại đồng hồ
+
+            timer = 0f;
         }
     }
 
