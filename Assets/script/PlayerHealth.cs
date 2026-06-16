@@ -2,25 +2,36 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public static PlayerHealth instance; 
+
     public int maxHealth = 5;
-
-    private int currentHealth;
-
+    public int currentHealth;
     public HealthBar healthBar;
+
+    void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
-        currentHealth = maxHealth;
+        if (PlayerPrefs.GetInt("HasSave", 0) == 1)
+        {
+            currentHealth = PlayerPrefs.GetInt("SavedHP", maxHealth);
+        }
+        else
+        {
+            currentHealth = maxHealth;
+        }
 
         healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(currentHealth);
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-
         healthBar.SetHealth(currentHealth);
-
         Debug.Log("Player HP: " + currentHealth);
 
         if (currentHealth <= 0)
@@ -33,13 +44,14 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("GAME OVER - Chạy UI chết!");
 
-        // Báo cáo cho tổng tư lệnh GameManager biết để dừng hình, bật bảng UI và đổi nhạc
-        if (GameManager.instance != null)
-        {
-            GameManager.instance.PlayerDied();
-        }
+        PlayerPrefs.DeleteKey("HasSave");
+        PlayerPrefs.DeleteKey("SavedHP");
+        PlayerPrefs.DeleteKey("LastScene");
+        PlayerPrefs.Save();
 
-        // Tắt (ẩn) nhân vật đi thay vì Destroy để tránh bị lỗi văng game do Camera/Quái mất mục tiêu
+        if (GameManager.instance != null)
+            GameManager.instance.PlayerDied();
+
         gameObject.SetActive(false);
     }
 }
