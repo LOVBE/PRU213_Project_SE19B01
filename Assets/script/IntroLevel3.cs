@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections;
 
-public class Level3Manage : MonoBehaviour
+public class IntroLevel3 : MonoBehaviour
 {
     [Header("Dialogue UI")]
     public GameObject dialoguePanel;
@@ -18,8 +19,9 @@ public class Level3Manage : MonoBehaviour
     public Sprite miksiSprite;
     public Sprite twanSprite;
 
-    [Header("Gameplay")]
-    public GameObject enemySpawner;
+    [Header("Scene Settings")]
+    [Tooltip("Tên scene gameplay sẽ load sau khi dialogue kết thúc. Phải khớp tên trong Build Settings")]
+    public string nextSceneName = "Level3";
 
     [Header("Settings")]
     public float startDelay = 2f;
@@ -42,15 +44,10 @@ public class Level3Manage : MonoBehaviour
     string[] dialogues =
     {
         "",
-
         "Well, well... Have you passed LAB211 yet?",
-
         "So... you're the one behind all of this?",
-
         "Not exactly. Students rely too much on AI these days. I simply made a little extra money by conducting a few 'small' experiments.",
-
         "Those aren't experiments! Too many innocent people have already died because of you.",
-
         "<color=#ff4040><b>Then... try to stop me!</b></color>"
     };
 
@@ -60,10 +57,6 @@ public class Level3Manage : MonoBehaviour
         dialoguePanel.SetActive(false);
         continueText.gameObject.SetActive(false);
 
-        // Enemy chưa xuất hiện
-        enemySpawner.SetActive(false);
-
-
         // Đợi 2 giây rồi hiện dialogue
         StartCoroutine(StartDialogueAfterDelay());
     }
@@ -71,16 +64,13 @@ public class Level3Manage : MonoBehaviour
     IEnumerator StartDialogueAfterDelay()
     {
         yield return new WaitForSeconds(startDelay);
-
         StartDialogue();
     }
 
     void StartDialogue()
     {
         dialoguePanel.SetActive(true);
-
         index = 1;
-
         ShowDialogue();
     }
 
@@ -95,11 +85,8 @@ public class Level3Manage : MonoBehaviour
             if (isTyping)
             {
                 StopCoroutine(typingCoroutine);
-
                 dialogueText.text = dialogues[index];
-
                 isTyping = false;
-
                 continueText.gameObject.SetActive(true);
             }
             else
@@ -112,7 +99,6 @@ public class Level3Manage : MonoBehaviour
     void ShowDialogue()
     {
         nameText.text = speakers[index];
-
         continueText.gameObject.SetActive(false);
 
         // Đổi Portrait
@@ -143,18 +129,15 @@ public class Level3Manage : MonoBehaviour
     IEnumerator TypeSentence(string sentence)
     {
         isTyping = true;
-
         dialogueText.text = "";
 
         foreach (char c in sentence)
         {
             dialogueText.text += c;
-
             yield return new WaitForSeconds(typingSpeed);
         }
 
         isTyping = false;
-
         continueText.gameObject.SetActive(true);
     }
 
@@ -176,11 +159,8 @@ public class Level3Manage : MonoBehaviour
         // Ẩn Dialogue
         dialoguePanel.SetActive(false);
 
-        // Spawn Enemy
-        enemySpawner.SetActive(true);
-
-
-        // Xóa script vì không cần nữa
-        Destroy(this);
+        // Chuyển sang scene gameplay chính
+        Debug.Log("[Level3Manage] Dialogue kết thúc -> Load scene: " + nextSceneName);
+        SceneManager.LoadScene(nextSceneName);
     }
 }
