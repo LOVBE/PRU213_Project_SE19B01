@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4997384598733585706}
   m_Layer: 0
   m_Name: BossBaMia
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 2800000, guid: d893992ff2e660c48ab1d2a3806effca, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52,6 +52,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 300
+  expPrefab: {fileID: 0}
+  expDropAmount: 1
 --- !u!114 &6793427983972991714
 MonoBehaviour:
   m_ObjectHideFlags: 0

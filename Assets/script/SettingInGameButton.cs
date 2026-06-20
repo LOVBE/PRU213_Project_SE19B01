@@ -66,21 +66,33 @@ public class InGameSettingButton : MonoBehaviour
 
     public void QuitToMainMenu()
     {
-        SaveProgress();
+        Debug.Log("QuitToMainMenu được gọi");
         Time.timeScale = 1f;
+        try { SaveProgress(); }
+        catch (System.Exception e) { Debug.LogError("SaveProgress lỗi: " + e.Message); }
+
+        Debug.Log("Đang load scene: MainMenu");
         SceneManager.LoadScene("MainMenu");
     }
 
     void SaveProgress()
     {
-        PlayerPrefs.SetString("LastScene", SceneManager.GetActiveScene().name);
+        string sceneName = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetString("LastScene", sceneName);
 
         if (PlayerHealth.instance != null)
             PlayerPrefs.SetInt("SavedHP", PlayerHealth.instance.currentHealth);
 
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        PlayerPrefs.SetInt("SavedEnemyCount", enemies.Length);
+
+        GameObject boss = GameObject.FindGameObjectWithTag("Boss");
+        PlayerPrefs.SetInt("SavedBossAlive", boss != null ? 1 : 0);
+
         PlayerPrefs.SetInt("HasSave", 1);
         PlayerPrefs.Save();
-        Debug.Log("Đã lưu tiến trình! HP = " + PlayerHealth.instance?.currentHealth);
+
+        Debug.Log($"Saved! HP={PlayerHealth.instance?.currentHealth} | Enemies={enemies.Length} | Boss={(boss != null ? "alive" : "dead")}");
     }
 
     void OnBrightnessChanged(float value)

@@ -10,7 +10,28 @@ public class BossSpawner : MonoBehaviour
     public float timeToSpawn = 60f; 
 
     private float timer = 0f;
-    private bool hasSpawned = false; 
+    private bool hasSpawned = false;
+
+    void Start()
+    {
+        // Nếu có save và boss còn sống → spawn ngay, bỏ qua timer
+        if (PlayerPrefs.GetInt("HasSave", 0) == 1)
+        {
+            bool bossWasAlive = PlayerPrefs.GetInt("SavedBossAlive", 0) == 1;
+            if (bossWasAlive)
+            {
+                SpawnBoss();
+                hasSpawned = true;
+            }
+            else
+            {
+                // Boss đã chết trước khi save → không spawn lại
+                hasSpawned = true;
+            }
+
+            PlayerPrefs.DeleteKey("SavedBossAlive");
+        }
+    }
 
     void Update()
     {

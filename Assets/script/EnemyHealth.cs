@@ -1,15 +1,20 @@
 ﻿using UnityEngine;
+using System;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 2;
+    // Các script khác (vd LevelExitTrigger) sẽ lắng nghe event này
+    public static event Action OnBossDied;
 
+    public int maxHealth = 2;
     private int currentHealth;
 
     [Header("Drop EXP")]
     public GameObject expPrefab;
-
     public int expDropAmount = 1;
+
+    [Header("Boss Settings")]
+    public bool isBoss = false; // Tick ô này trong Inspector nếu object này là Boss
 
     void Start()
     {
@@ -19,9 +24,7 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-
         Debug.Log("Enemy HP: " + currentHealth);
-
         if (currentHealth <= 0)
         {
             Die();
@@ -31,6 +34,11 @@ public class EnemyHealth : MonoBehaviour
     void Die()
     {
         DropExperience();
+
+        if (isBoss)
+        {
+            OnBossDied?.Invoke();
+        }
 
         Destroy(gameObject);
     }
@@ -43,10 +51,10 @@ public class EnemyHealth : MonoBehaviour
         for (int i = 0; i < expDropAmount; i++)
         {
             Vector3 offset = new Vector3(
-                Random.Range(-0.3f, 0.3f),
-                Random.Range(-0.3f, 0.3f),
-                0);
-
+    UnityEngine.Random.Range(-0.3f, 0.3f),
+    UnityEngine.Random.Range(-0.3f, 0.3f),
+    0f
+);
             Instantiate(
                 expPrefab,
                 transform.position + offset,

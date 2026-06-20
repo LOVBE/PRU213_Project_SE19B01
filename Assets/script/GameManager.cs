@@ -9,7 +9,6 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
 
     [Header("Audio Clips")]
-    // Xóa bgmSource — BGM_Manager lo hết
     public AudioClip mainGameBGM;
     public AudioClip gameOverBGM;
 
@@ -23,7 +22,6 @@ public class GameManager : MonoBehaviour
     {
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
 
-        // BGM_Manager đổi clip sang nhạc game, volume tự giữ từ setting
         BGM_Manager.Instance?.PlayBGM(mainGameBGM);
     }
 
