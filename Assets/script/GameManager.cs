@@ -46,4 +46,24 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
     }
+    public void SavePlayerData()
+    {
+        PlayerHealth hp =
+            FindFirstObjectByType<PlayerHealth>();
+
+        PlayerExperience exp =
+            FindFirstObjectByType<PlayerExperience>();
+
+        if (hp != null)
+            hp.SaveData();
+
+        if (exp != null)
+            exp.SaveData();
+
+        PlayerPrefs.SetInt("HasSave", 1);
+
+        PlayerPrefs.Save();
+
+        Debug.Log("PLAYER DATA SAVED");
+    }
 }

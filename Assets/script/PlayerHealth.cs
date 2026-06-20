@@ -54,4 +54,10 @@ public class PlayerHealth : MonoBehaviour
 
         gameObject.SetActive(false);
     }
+    public void SaveData()
+    {
+        PlayerPrefs.SetInt(
+            "SavedHP",
+            currentHealth);
+    }
 }

@@ -161,6 +161,8 @@ public class IntroLevel3 : MonoBehaviour
 
         // Chuyển sang scene gameplay chính
         Debug.Log("[Level3Manage] Dialogue kết thúc -> Load scene: " + nextSceneName);
+        GameManager.instance?.SavePlayerData();
+
         SceneManager.LoadScene(nextSceneName);
     }
 }

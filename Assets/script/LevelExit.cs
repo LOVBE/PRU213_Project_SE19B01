@@ -130,6 +130,8 @@ public class LevelExitTrigger : MonoBehaviour
 
         yield return new WaitForSeconds(2);
 
+        GameManager.instance?.SavePlayerData();
+
         SceneManager.LoadScene("Level3");
     }
 }

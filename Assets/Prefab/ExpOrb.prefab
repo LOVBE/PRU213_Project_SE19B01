@@ -143,8 +143,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ExperienceOrb
   expValue: 1
-  pickupRange: 3
-  moveSpeed: 6
+  pickupRange: 1
+  moveSpeed: 3
 --- !u!50 &3506647654619183536
 Rigidbody2D:
   serializedVersion: 5

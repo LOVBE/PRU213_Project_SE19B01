@@ -32,11 +32,20 @@ public class PlayerExperience : MonoBehaviour
     };
 
     [Header("UI")]
-    public Image expBar;
+    public Slider expBar;
     public TMP_Text levelText;
 
     private void Start()
     {
+        if (PlayerPrefs.GetInt("HasSave", 0) == 1)
+        {
+            currentLevel =
+                PlayerPrefs.GetInt("SavedLevel", 1);
+
+            currentExp =
+                PlayerPrefs.GetInt("SavedExp", 0);
+        }
+
         UpdateUI();
     }
 
@@ -75,18 +84,30 @@ public class PlayerExperience : MonoBehaviour
 
     void UpdateUI()
     {
+        if (levelText != null)
+        {
+            levelText.text = "Lv " + currentLevel;
+        }
+
         if (expBar != null)
         {
             if (currentLevel >= 20)
             {
-                expBar.fillAmount = 1f;
+                expBar.maxValue = 1;
+                expBar.value = 1;
             }
             else
             {
-                expBar.fillAmount =
-                    (float)currentExp /
+                expBar.maxValue =
                     expRequirements[currentLevel - 1];
+
+                expBar.value = currentExp;
             }
         }
+    }
+    public void SaveData()
+    {
+        PlayerPrefs.SetInt("SavedLevel", currentLevel);
+        PlayerPrefs.SetInt("SavedExp", currentExp);
     }
 }
