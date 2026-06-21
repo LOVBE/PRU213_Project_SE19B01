@@ -1220,8 +1220,8 @@ MonoBehaviour:
     slowDuration: 2
     slowFactor: 0.5
     key: 43
-  playerExperience: {fileID: 0}
-  skillBarUI: {fileID: 0}
+  player: {fileID: 181567032}
+  skillBarUI: {fileID: 1517866712}
 --- !u!1 &185951855
 GameObject:
   m_ObjectHideFlags: 0
@@ -5758,6 +5758,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506479065}
   m_CullTransparentMesh: 1
+--- !u!1 &1517866710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1517866711}
+  - component: {fileID: 1517866712}
+  m_Layer: 0
+  m_Name: SkillBarUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1517866711
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517866710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1915369473}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -362.7, y: 141}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1517866712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517866710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08154a1a0d6c5034bae74432207b0180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillBarUI
+  anchor: {fileID: 0}
+  iconLocked: {fileID: 1707107623772691490, guid: cbdfb9a698719f94f86c7a3e0aeea8da, type: 3}
+  skillIcons:
+  - {fileID: 1098286324429101383, guid: d8963c111e536ed4da0e151c20b4c1d3, type: 3}
+  - {fileID: -7560284153744367771, guid: afa4c8f1ba44789479b0155388e05cb9, type: 3}
+  - {fileID: -8105560202311982947, guid: 4cf38ca158f35614aabcf4f62394d7da, type: 3}
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+  cooldownColor: {r: 0, g: 0, b: 0, a: 0.6}
+  iconSize: {x: 32, y: 32}
+  spacing: 10
+  startOffset: {x: 20, y: -80}
 --- !u!1 &1529104018
 GameObject:
   m_ObjectHideFlags: 0
@@ -7233,6 +7293,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1907880169}
+  - {fileID: 1517866711}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0.8, z: 0}
   m_AnchorMin: {x: 0, y: 0}
