@@ -1,15 +1,13 @@
 ﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class PlayerExperience : MonoBehaviour
 {
+    public static PlayerExperience instance;
+
     [Header("Level System")]
     public int currentLevel = 1;
     public int currentExp = 0;
-
-    [Header("Player Reference")]
-    public PlayerMovement player;
 
     public int[] expRequirements =
     {
@@ -33,10 +31,14 @@ public class PlayerExperience : MonoBehaviour
         860,  // Lv18 -> Lv19
         955    // Lv19 -> Lv20
     };
-
     [Header("UI")]
     public Slider expBar;
     public TMP_Text levelText;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {
@@ -44,69 +46,44 @@ public class PlayerExperience : MonoBehaviour
         {
             currentLevel =
                 PlayerPrefs.GetInt("SavedLevel", 1);
-
             currentExp =
                 PlayerPrefs.GetInt("SavedExp", 0);
         }
 
-        if (player == null)
-        {
-            player = GetComponent<PlayerMovement>();
-        }
-
-        if (player != null)
-        {
-            player.SetLevel(currentLevel);
-        }
-
         UpdateUI();
     }
-
     public void AddExperience(int amount)
     {
         if (currentLevel >= 20)
             return;
-
         currentExp += amount;
-
         while (currentLevel < 20 &&
                currentExp >= expRequirements[currentLevel - 1])
         {
             currentExp -= expRequirements[currentLevel - 1];
             LevelUp();
         }
-
         UpdateUI();
     }
-
     void LevelUp()
     {
         currentLevel++;
 
-        if (player != null)
-        {
-            player.LevelUp();
-        }
-
         Debug.Log("LEVEL UP! Current Level: " + currentLevel);
-
         // Cập nhật UI Level
         if (levelText != null)
         {
             levelText.text = "Lv " + currentLevel;
         }
-
         // Sau này mở bảng nâng cấp ở đây
         // UpgradeManager.Instance.ShowUpgradePanel();
     }
-
     void UpdateUI()
     {
         if (levelText != null)
         {
             levelText.text = "Lv " + currentLevel;
         }
-
         if (expBar != null)
         {
             if (currentLevel >= 20)
@@ -118,7 +95,6 @@ public class PlayerExperience : MonoBehaviour
             {
                 expBar.maxValue =
                     expRequirements[currentLevel - 1];
-
                 expBar.value = currentExp;
             }
         }
