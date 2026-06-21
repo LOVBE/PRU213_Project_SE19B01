@@ -2,36 +2,43 @@
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+
 public class InGameSettingButton : MonoBehaviour
 {
     [Header("Panel")]
     public GameObject settingPanel;
     public GameObject confirmRetryPanel; // popup xác nhận retry
+
     [Header("Settings Sliders")]
     public Slider musicSlider;
     public Slider sfxSlider;
     public Slider brightnessSlider;
+
     private bool isOpen = false;
+
     void Start()
     {
         settingPanel.SetActive(false);
         confirmRetryPanel.SetActive(false); // ẩn popup lúc đầu
+
         musicSlider.value = PlayerPrefs.GetFloat("Music", 1f);
         sfxSlider.value = PlayerPrefs.GetFloat("SFX", 1f);
         brightnessSlider.value = PlayerPrefs.GetFloat("Brightness", 1f);
+
         musicSlider.onValueChanged.AddListener(v =>
             BGM_Manager.Instance?.SetBGMVolume(v));
         sfxSlider.onValueChanged.AddListener(v =>
             BGM_Manager.Instance?.SetSFXVolume(v));
         brightnessSlider.onValueChanged.AddListener(OnBrightnessChanged);
     }
+
     public void ToggleSetting()
     {
-        Debug.Log("ToggleSetting được gọi!");
         isOpen = !isOpen;
         settingPanel.SetActive(isOpen);
         Time.timeScale = isOpen ? 0f : 1f;
     }
+
     public void ResumeGame()
     {
         isOpen = false;
@@ -39,53 +46,55 @@ public class InGameSettingButton : MonoBehaviour
         confirmRetryPanel.SetActive(false);
         Time.timeScale = 1f;
     }
+
     public void OnRetryClicked()
     {
         confirmRetryPanel.SetActive(true);
     }
+
     public void ConfirmRetry()
     {
         confirmRetryPanel.SetActive(false);
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
     public void CancelRetry()
     {
         confirmRetryPanel.SetActive(false);
     }
+
     public void QuitToMainMenu()
     {
         Debug.Log("QuitToMainMenu được gọi");
         Time.timeScale = 1f;
         try { SaveProgress(); }
         catch (System.Exception e) { Debug.LogError("SaveProgress lỗi: " + e.Message); }
+
         Debug.Log("Đang load scene: MainMenu");
         SceneManager.LoadScene("MainMenu");
     }
+
     void SaveProgress()
     {
         string sceneName = SceneManager.GetActiveScene().name;
         PlayerPrefs.SetString("LastScene", sceneName);
 
         if (PlayerHealth.instance != null)
-        {
-            // Lưu HP + vị trí Player (đã gộp sẵn trong SaveData)
-            PlayerHealth.instance.SaveData();
-        }
-
-        if (PlayerExperience.instance != null)
-        {
-            // Lưu Level + Exp
-            PlayerExperience.instance.SaveData();
-        }
+            PlayerPrefs.SetInt("SavedHP", PlayerHealth.instance.currentHealth);
 
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         PlayerPrefs.SetInt("SavedEnemyCount", enemies.Length);
+
         GameObject boss = GameObject.FindGameObjectWithTag("Boss");
         PlayerPrefs.SetInt("SavedBossAlive", boss != null ? 1 : 0);
+
         PlayerPrefs.SetInt("HasSave", 1);
         PlayerPrefs.Save();
+
+        Debug.Log($"Saved! HP={PlayerHealth.instance?.currentHealth} | Enemies={enemies.Length} | Boss={(boss != null ? "alive" : "dead")}");
     }
+
     void OnBrightnessChanged(float value)
     {
         PlayerPrefs.SetFloat("Brightness", value);
