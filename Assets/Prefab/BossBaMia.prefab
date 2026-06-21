@@ -52,8 +52,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 300
-  expPrefab: {fileID: 0}
-  expDropAmount: 1
+  expPrefab: {fileID: 9178054231338753239, guid: 11988009d594ae247bb1b75655a96f33, type: 3}
+  expDropAmount: 100
+  isBoss: 1
 --- !u!114 &6793427983972991714
 MonoBehaviour:
   m_ObjectHideFlags: 0
