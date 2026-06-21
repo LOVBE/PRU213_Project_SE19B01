@@ -7,9 +7,9 @@ public class BossSpawner : MonoBehaviour
     public Transform spawnPoint;
 
     [Header("Spawn Settings")]
-    public float timeToSpawn = 60f;
-    public int requiredLevel = 4;
-    public PlayerExperience player;
+    public float timeToSpawn = 30f;
+    public int requiredLevel = 3;
+    public PlayerMovement player;
 
     private float timer = 0f;
     private bool hasSpawned = false;
@@ -18,7 +18,7 @@ public class BossSpawner : MonoBehaviour
     {
         if (player == null)
         {
-            player = FindAnyObjectByType<PlayerExperience>();
+            player = FindAnyObjectByType<PlayerMovement>();
         }
 
         // Nếu có save và boss còn sống → spawn ngay, bỏ qua timer
@@ -44,7 +44,7 @@ public class BossSpawner : MonoBehaviour
     {
         if (hasSpawned) return;
 
-        if (player == null || player.currentLevel < requiredLevel) return;
+        if (player == null || player.playerLevel < requiredLevel) return;
 
         timer += Time.deltaTime;
 

@@ -8,6 +8,9 @@ public class PlayerExperience : MonoBehaviour
     public int currentLevel = 1;
     public int currentExp = 0;
 
+    [Header("Player Reference")]
+    public PlayerMovement player;
+
     public int[] expRequirements =
     {
         10,   // Lv1 -> Lv2
@@ -46,6 +49,16 @@ public class PlayerExperience : MonoBehaviour
                 PlayerPrefs.GetInt("SavedExp", 0);
         }
 
+        if (player == null)
+        {
+            player = GetComponent<PlayerMovement>();
+        }
+
+        if (player != null)
+        {
+            player.SetLevel(currentLevel);
+        }
+
         UpdateUI();
     }
 
@@ -69,6 +82,11 @@ public class PlayerExperience : MonoBehaviour
     void LevelUp()
     {
         currentLevel++;
+
+        if (player != null)
+        {
+            player.LevelUp();
+        }
 
         Debug.Log("LEVEL UP! Current Level: " + currentLevel);
 
