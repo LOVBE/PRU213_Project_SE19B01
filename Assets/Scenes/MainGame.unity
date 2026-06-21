@@ -950,6 +950,7 @@ GameObject:
   - component: {fileID: 181567041}
   - component: {fileID: 181567040}
   - component: {fileID: 181567042}
+  - component: {fileID: 181567043}
   m_Layer: 0
   m_Name: adobe_mixi_2
   m_TagString: Player
@@ -1173,6 +1174,54 @@ MonoBehaviour:
   expRequirements: 0a000000140000002300000037000000500000006e00000091000000b9000000e6000000180100004f0100008b010000cc010000120200005d020000ad020000020300005c030000bb030000
   expBar: {fileID: 1648390613}
   levelText: {fileID: 680865}
+--- !u!114 &181567043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181567030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006e51a652e09f04b830d6e74c041bb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillManager
+  skills:
+  - skillName: Fire Burst
+    unlockLevel: 3
+    cooldown: 5
+    aoePrefab: {fileID: 2837301588675487329, guid: 7ea936d8963d6114daacb42324cf3751, type: 3}
+    damage: 30
+    radius: 4
+    lifeTime: 0.3
+    applySlow: 0
+    slowDuration: 2
+    slowFactor: 0.5
+    key: 41
+  - skillName: Ice Nova
+    unlockLevel: 6
+    cooldown: 8
+    aoePrefab: {fileID: 2837301588675487329, guid: 3e8191b425013084184e2240d25e9fca, type: 3}
+    damage: 50
+    radius: 5
+    lifeTime: 0.3
+    applySlow: 1
+    slowDuration: 2
+    slowFactor: 0.5
+    key: 42
+  - skillName: Thunder Storm
+    unlockLevel: 9
+    cooldown: 12
+    aoePrefab: {fileID: 2837301588675487329, guid: 231e234890e2c524991e184a259e36b5, type: 3}
+    damage: 100
+    radius: 7
+    lifeTime: 0.4
+    applySlow: 0
+    slowDuration: 2
+    slowFactor: 0.5
+    key: 43
+  playerExperience: {fileID: 0}
+  skillBarUI: {fileID: 0}
 --- !u!1 &185951855
 GameObject:
   m_ObjectHideFlags: 0
