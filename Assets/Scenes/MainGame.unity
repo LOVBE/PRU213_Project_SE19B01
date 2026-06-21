@@ -970,8 +970,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   moveSpeed: 5
+  moveSpeedPerLevel: 0.25
   bulletPrefab: {fileID: 8743965143112541644, guid: eabb451f90c912c46b46ff098c263090, type: 3}
   firePoint: {fileID: 634298209}
+  bulletDamage: 10
+  bulletDamagePerLevel: 2
+  playerLevel: 1
   sfxSource: {fileID: 1871571624}
   shootSound: {fileID: 8300000, guid: ab53dc3f59b424f46b7741bde96a7535, type: 3}
 --- !u!4 &181567034
@@ -1165,6 +1169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerExperience
   currentLevel: 1
   currentExp: 0
+  player: {fileID: 0}
   expRequirements: 0a000000140000002300000037000000500000006e00000091000000b9000000e6000000180100004f0100008b010000cc010000120200005d020000ad020000020300005c030000bb030000
   expBar: {fileID: 1648390613}
   levelText: {fileID: 680865}
@@ -7731,9 +7736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BossSpawner
   bossPrefab: {fileID: 5751671654469490574, guid: 204481dbc9e8bd141a82ca17279b5a33, type: 3}
   spawnPoint: {fileID: 116358909}
-  timeToSpawn: 10
+  timeToSpawn: 1
   requiredLevel: 4
-  player: {fileID: 181567042}
+  player: {fileID: 181567032}
 --- !u!4 &2038300141
 Transform:
   m_ObjectHideFlags: 0

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ExperienceOrb : MonoBehaviour
 {
-    public int expValue = 1;
+    public int expValue = 10;
     public float pickupRange = 3f;
     public float moveSpeed = 6f;
 

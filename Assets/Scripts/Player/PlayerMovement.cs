@@ -5,16 +5,25 @@ public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 5f;
+    public float moveSpeedPerLevel = 0.25f;
+
+    [Header("Shoot")]
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public int bulletDamage = 10;
+    public int bulletDamagePerLevel = 2;
+
+    [Header("Level")]
+    public int playerLevel = 1;
+
+    private float baseMoveSpeed;
+    private int baseBulletDamage;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
 
     private Animator animator;
     private SpriteRenderer sr;
-
-    [Header("Shoot")]
-    public GameObject bulletPrefab;
-    public Transform firePoint;
 
     [Header("Âm thanh Settings")]
     public AudioSource sfxSource;   
@@ -25,6 +34,11 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+
+        baseMoveSpeed = moveSpeed;
+        baseBulletDamage = bulletDamage;
+
+        ApplyLevel();
     }
 
     void Update()
@@ -82,11 +96,32 @@ public class PlayerMovement : MonoBehaviour
         if (bulletScript != null)
         {
             bulletScript.SetDirection(shootDirection);
+            bulletScript.damage = bulletDamage;
         }
 
         if (sfxSource != null && shootSound != null)
         {
             sfxSource.PlayOneShot(shootSound);
         }
+    }
+
+    public void LevelUp()
+    {
+        playerLevel++;
+        ApplyLevel();
+    }
+
+    public void SetLevel(int level)
+    {
+        playerLevel = Mathf.Max(1, level);
+        ApplyLevel();
+    }
+
+    void ApplyLevel()
+    {
+        int levelsGained = playerLevel - 1;
+
+        moveSpeed = baseMoveSpeed + moveSpeedPerLevel * levelsGained;
+        bulletDamage = baseBulletDamage + bulletDamagePerLevel * levelsGained;
     }
 }
