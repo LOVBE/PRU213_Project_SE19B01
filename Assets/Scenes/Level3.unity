@@ -1645,7 +1645,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65bebe87f397264894ba9cfd06a3042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::follow
-  following: {fileID: 0}
+  following: {fileID: 288495606}
 --- !u!1 &1309407259
 GameObject:
   m_ObjectHideFlags: 0
