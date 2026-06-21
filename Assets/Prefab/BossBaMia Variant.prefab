@@ -71,37 +71,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 517023653779118890, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2600015391933312837}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
 --- !u!4 &3336020438501512230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7400874659236780162, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
   m_PrefabInstance: {fileID: 5259884009377025188}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5751671654469490574 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 517023653779118890, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
-  m_PrefabInstance: {fileID: 5259884009377025188}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2600015391933312837
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5751671654469490574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34ea88ea4596333498406da78e1df4fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BossDash
-  dashCooldown: 5
-  telegraphTime: 0.5
-  dashDuration: 0.4
-  dashSpeed: 14
-  dashDamage: 10
-  sr: {fileID: 0}
-  telegraphColor: {r: 1, g: 0.4, b: 0.4, a: 1}
