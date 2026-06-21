@@ -3,17 +3,24 @@
 public class BossSpawner : MonoBehaviour
 {
     [Header("Boss Setup")]
-    public GameObject bossPrefab;    
-    public Transform spawnPoint;     
+    public GameObject bossPrefab;
+    public Transform spawnPoint;
 
     [Header("Spawn Settings")]
-    public float timeToSpawn = 60f; 
+    public float timeToSpawn = 60f;
+    public int requiredLevel = 4;
+    public PlayerExperience player;
 
     private float timer = 0f;
     private bool hasSpawned = false;
 
     void Start()
     {
+        if (player == null)
+        {
+            player = FindAnyObjectByType<PlayerExperience>();
+        }
+
         // Nếu có save và boss còn sống → spawn ngay, bỏ qua timer
         if (PlayerPrefs.GetInt("HasSave", 0) == 1)
         {
@@ -36,6 +43,8 @@ public class BossSpawner : MonoBehaviour
     void Update()
     {
         if (hasSpawned) return;
+
+        if (player == null || player.currentLevel < requiredLevel) return;
 
         timer += Time.deltaTime;
 
