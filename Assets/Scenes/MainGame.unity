@@ -7732,6 +7732,8 @@ MonoBehaviour:
   bossPrefab: {fileID: 5751671654469490574, guid: 204481dbc9e8bd141a82ca17279b5a33, type: 3}
   spawnPoint: {fileID: 116358909}
   timeToSpawn: 10
+  requiredLevel: 4
+  player: {fileID: 181567042}
 --- !u!4 &2038300141
 Transform:
   m_ObjectHideFlags: 0
