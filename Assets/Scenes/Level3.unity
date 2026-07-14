@@ -1151,6 +1151,7 @@ GameObject:
   - component: {fileID: 288495608}
   - component: {fileID: 288495607}
   - component: {fileID: 288495615}
+  - component: {fileID: 288495616}
   m_Layer: 0
   m_Name: adobe_mixi_2
   m_TagString: Player
@@ -1391,6 +1392,54 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 22cfa4d3b9ad85140b9c9e8c340791da, type: 2}
   weaponRenderer: {fileID: 1309407261}
   playerExperience: {fileID: 288495607}
+--- !u!114 &288495616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288495606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006e51a652e09f04b830d6e74c041bb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillManager
+  skills:
+  - skillName: Fire Burst
+    unlockLevel: 3
+    cooldown: 5
+    aoePrefab: {fileID: 0}
+    damage: 30
+    radius: 4
+    lifeTime: 0.6
+    applySlow: 0
+    slowDuration: 2
+    slowFactor: 0.5
+    key: 41
+  - skillName: Ice Nova
+    unlockLevel: 6
+    cooldown: 8
+    aoePrefab: {fileID: 0}
+    damage: 50
+    radius: 5
+    lifeTime: 0.7
+    applySlow: 1
+    slowDuration: 2
+    slowFactor: 0.5
+    key: 42
+  - skillName: Thunder Storm
+    unlockLevel: 9
+    cooldown: 12
+    aoePrefab: {fileID: 0}
+    damage: 100
+    radius: 7
+    lifeTime: 0.8
+    applySlow: 0
+    slowDuration: 2
+    slowFactor: 0.5
+    key: 43
+  player: {fileID: 288495613}
+  skillBarUI: {fileID: 1255189074}
 --- !u!1 &305673001
 GameObject:
   m_ObjectHideFlags: 0
@@ -5276,6 +5325,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237607819}
   m_CullTransparentMesh: 1
+--- !u!1 &1255189072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1255189073}
+  - component: {fileID: 1255189074}
+  m_Layer: 0
+  m_Name: SkillBarUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1255189073
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255189072}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1346415970}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -284, y: 25}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1255189074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255189072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08154a1a0d6c5034bae74432207b0180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkillBarUI
+  anchor: {fileID: 0}
+  iconLocked: {fileID: 1707107623772691490, guid: cbdfb9a698719f94f86c7a3e0aeea8da, type: 3}
+  skillIcons:
+  - {fileID: 1098286324429101383, guid: d8963c111e536ed4da0e151c20b4c1d3, type: 3}
+  - {fileID: -7560284153744367771, guid: afa4c8f1ba44789479b0155388e05cb9, type: 3}
+  - {fileID: -8105560202311982947, guid: 4cf38ca158f35614aabcf4f62394d7da, type: 3}
+  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
+  lockedColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+  cooldownColor: {r: 0, g: 0, b: 0, a: 0.6}
+  iconSize: {x: 32, y: 32}
+  spacing: 10
+  startOffset: {x: 20, y: -80}
 --- !u!1 &1283119059
 GameObject:
   m_ObjectHideFlags: 0
@@ -5736,8 +5845,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1255189073}
   - {fileID: 775363338}
-  - {fileID: 2111797638}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -0.8, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9584,66 +9693,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &2111797637
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2111797638}
-  - component: {fileID: 2111797639}
-  m_Layer: 0
-  m_Name: SkillBarUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &2111797638
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111797637}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1346415970}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -439, y: -89}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2111797639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111797637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08154a1a0d6c5034bae74432207b0180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SkillBarUI
-  anchor: {fileID: 0}
-  iconLocked: {fileID: 1707107623772691490, guid: cbdfb9a698719f94f86c7a3e0aeea8da, type: 3}
-  skillIcons:
-  - {fileID: 1098286324429101383, guid: d8963c111e536ed4da0e151c20b4c1d3, type: 3}
-  - {fileID: -7560284153744367771, guid: afa4c8f1ba44789479b0155388e05cb9, type: 3}
-  - {fileID: -8105560202311982947, guid: 4cf38ca158f35614aabcf4f62394d7da, type: 3}
-  unlockedColor: {r: 1, g: 1, b: 1, a: 1}
-  lockedColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
-  cooldownColor: {r: 0, g: 0, b: 0, a: 0.6}
-  iconSize: {x: 32, y: 32}
-  spacing: 10
-  startOffset: {x: 20, y: -80}
 --- !u!1 &2112580432
 GameObject:
   m_ObjectHideFlags: 0
