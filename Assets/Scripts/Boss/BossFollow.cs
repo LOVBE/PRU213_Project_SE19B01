@@ -4,10 +4,10 @@ namespace Assets.script
     public class BossFollow : EnemyFollow
     {
         [Header("Boss Follow Settings")]
-        public float bossMoveSpeed = 2f; // Tốc độ bám đuổi riêng của Boss (đổi tên để không trùng field moveSpeed của EnemyFollow)
+        public float bossMoveSpeed = 2f;
 
         [Header("Damage Settings")]
-        public int normalDamage = 2; // Damage khi va chạm bình thường (không dash)
+        public int normalDamage = 2;
 
         private Transform player;
         private SpriteRenderer sr;
@@ -15,7 +15,6 @@ namespace Assets.script
         private bool movementEnabled = true;
         private BossDash bossDash;
 
-        // Dùng "new" để KHÔNG đụng/đè vào Start() gốc của EnemyFollow, Boss tự quản lý riêng
         new void Start()
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -26,7 +25,6 @@ namespace Assets.script
             bossDash = GetComponent<BossDash>();
         }
 
-        // Dùng "new" để Boss tự di chuyển riêng, không dùng FixedUpdate gốc của EnemyFollow
         new void FixedUpdate()
         {
             if (!movementEnabled) return;
@@ -42,7 +40,6 @@ namespace Assets.script
             }
         }
 
-        // Gọi từ BossDash để tạm khoá/bật lại khả năng tự bám đuổi của Boss
         public void SetMovementEnabled(bool enabled)
         {
             movementEnabled = enabled;
@@ -57,7 +54,6 @@ namespace Assets.script
                 PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
                 if (playerHealth != null)
                 {
-                    // Nếu đang trong lúc Dash thì gây damage cao hơn
                     if (bossDash != null && bossDash.IsDashing)
                     {
                         playerHealth.TakeDamage(bossDash.dashDamage);

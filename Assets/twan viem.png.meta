@@ -381,7 +381,7 @@ TextureImporter:
         width: 266
         height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,28 +395,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_1
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 1040
-        width: 148
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e7d3606839957f00800000000000000
-      internalID: 1113964950258440160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_2
       rect:
         serializedVersion: 2
@@ -425,7 +403,7 @@ TextureImporter:
         width: 7
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,116 +417,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_3
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 1043
-        width: 137
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79f954972a66a3580800000000000000
-      internalID: -8846645670010577001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_4
-      rect:
-        serializedVersion: 2
-        x: 635
-        y: 1041
-        width: 135
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f04a6e1095fcc0730800000000000000
-      internalID: 3966773352997495823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_5
-      rect:
-        serializedVersion: 2
-        x: 774
-        y: 1040
-        width: 134
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 017d21198c33392f0800000000000000
-      internalID: -967372558434117872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_6
-      rect:
-        serializedVersion: 2
-        x: 921
-        y: 1040
-        width: 128
-        height: 174
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff16b3b12c8b8b240800000000000000
-      internalID: 4807795746038047231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_7
-      rect:
-        serializedVersion: 2
-        x: 1058
-        y: 1040
-        width: 144
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54b98e1185e4f6cb0800000000000000
-      internalID: -4868586531999671483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_8
       rect:
         serializedVersion: 2
@@ -557,7 +425,7 @@ TextureImporter:
         width: 271
         height: 36
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -579,7 +447,7 @@ TextureImporter:
         width: 48
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -601,7 +469,7 @@ TextureImporter:
         width: 127
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -623,7 +491,7 @@ TextureImporter:
         width: 137
         height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -645,7 +513,7 @@ TextureImporter:
         width: 134
         height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -667,7 +535,7 @@ TextureImporter:
         width: 139
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -689,7 +557,7 @@ TextureImporter:
         width: 129
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -711,7 +579,7 @@ TextureImporter:
         width: 129
         height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -725,138 +593,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_16
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 855
-        width: 1207
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c891b7b201bd37df0800000000000000
-      internalID: -183562297296610932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_17
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 832
-        width: 64
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fa19aeab1c707a00800000000000000
-      internalID: 752237596107152116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_18
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 832
-        width: 75
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2008f89922360d40800000000000000
-      internalID: 5550178745022152749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_19
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 832
-        width: 13
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e60d16c9c779d88f0800000000000000
-      internalID: -536606219131826066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_20
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 839
-        width: 14
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 256e9a79922687c40800000000000000
-      internalID: 5510262074865477202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_21
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 830
-        width: 56
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6f7b9d7928685c00800000000000000
-      internalID: 889575453815963500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_22
       rect:
         serializedVersion: 2
@@ -865,7 +601,7 @@ TextureImporter:
         width: 133
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -887,7 +623,7 @@ TextureImporter:
         width: 134
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -909,7 +645,7 @@ TextureImporter:
         width: 134
         height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -931,7 +667,7 @@ TextureImporter:
         width: 146
         height: 146
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -948,10 +684,10 @@ TextureImporter:
       name: twan viem_26
       rect:
         serializedVersion: 2
-        x: 623
-        y: 683
-        width: 137
-        height: 143
+        x: 220
+        y: 342
+        width: 171
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -970,10 +706,10 @@ TextureImporter:
       name: twan viem_27
       rect:
         serializedVersion: 2
-        x: 758
-        y: 683
-        width: 160
-        height: 142
+        x: 394
+        y: 344
+        width: 189
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -992,12 +728,12 @@ TextureImporter:
       name: twan viem_28
       rect:
         serializedVersion: 2
-        x: 915
-        y: 683
-        width: 142
-        height: 142
+        x: 924
+        y: 680
+        width: 303
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1011,521 +747,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_29
-      rect:
-        serializedVersion: 2
-        x: 1054
-        y: 715
-        width: 138
-        height: 90
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ac2e6d793824f04f0800000000000000
-      internalID: -860395870848884022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_30
-      rect:
-        serializedVersion: 2
-        x: 1072
-        y: 802
-        width: 21
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4fbcd4f186abfbd80800000000000000
-      internalID: -8232656637445420044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_31
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 803
-        width: 24
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 11aa2d0a586e5cc00800000000000000
-      internalID: 920395160470333969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_32
-      rect:
-        serializedVersion: 2
-        x: 1116
-        y: 798
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 38ca177c0f9359430800000000000000
-      internalID: 3788998367803190403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_33
-      rect:
-        serializedVersion: 2
-        x: 1128
-        y: 803
-        width: 14
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 69e85280ab019f080800000000000000
-      internalID: -9153266376467181930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_34
-      rect:
-        serializedVersion: 2
-        x: 1156
-        y: 816
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85bd5cb79d44b51f0800000000000000
-      internalID: -1055173986813093032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_35
-      rect:
-        serializedVersion: 2
-        x: 1176
-        y: 796
-        width: 20
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88d7a3ae044fa7740800000000000000
-      internalID: 5150697683496369544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_36
-      rect:
-        serializedVersion: 2
-        x: 1197
-        y: 773
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1581648c50ecf16a0800000000000000
-      internalID: -6476231214905288623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_37
-      rect:
-        serializedVersion: 2
-        x: 905
-        y: 750
-        width: 42
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae465fdd16b428450800000000000000
-      internalID: 6089512529866089706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_38
-      rect:
-        serializedVersion: 2
-        x: 1184
-        y: 742
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 461609f2b00eab4d0800000000000000
-      internalID: -3117933453353393820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_39
-      rect:
-        serializedVersion: 2
-        x: 1193
-        y: 738
-        width: 17
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8766f06f6da99fab0800000000000000
-      internalID: -4973774065412118920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_40
-      rect:
-        serializedVersion: 2
-        x: 1218
-        y: 756
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7e861283dd45e1480800000000000000
-      internalID: -8926604102295525145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_41
-      rect:
-        serializedVersion: 2
-        x: 1054
-        y: 725
-        width: 11
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5bcd9a9672a7e0a50800000000000000
-      internalID: 6489258422782516405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_42
-      rect:
-        serializedVersion: 2
-        x: 1180
-        y: 711
-        width: 11
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c19294069427559f0800000000000000
-      internalID: -480352125771503332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_43
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 724
-        width: 11
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6fa33a1c5b2c50370800000000000000
-      internalID: 8288244775138835190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_44
-      rect:
-        serializedVersion: 2
-        x: 1079
-        y: 709
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 011ab9f5df340de20800000000000000
-      internalID: 3373270876410323216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_45
-      rect:
-        serializedVersion: 2
-        x: 1122
-        y: 705
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 786accb9bef0e3010800000000000000
-      internalID: 1170390457768519303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_46
-      rect:
-        serializedVersion: 2
-        x: 1133
-        y: 690
-        width: 12
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b252ed16363be3610800000000000000
-      internalID: 1602915756815557931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_47
-      rect:
-        serializedVersion: 2
-        x: 1163
-        y: 713
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0643d9d1ce70f7cd0800000000000000
-      internalID: -2558317352632634272
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_48
-      rect:
-        serializedVersion: 2
-        x: 1099
-        y: 690
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56c3b69c6e746f5a0800000000000000
-      internalID: -6487919156633322395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_49
-      rect:
-        serializedVersion: 2
-        x: 1154
-        y: 694
-        width: 20
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0cdece6d488f3ab0800000000000000
-      internalID: -5026148792969274357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_50
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 670
-        width: 1209
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 13b0b2ce4827d7c90800000000000000
-      internalID: -7170449116480468175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_51
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 649
-        width: 75
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cddfec2c7906878b0800000000000000
-      internalID: -5154263568600859172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_52
       rect:
         serializedVersion: 2
         x: 59
         y: 512
         width: 140
-        height: 162
+        height: 138
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1539,28 +769,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_53
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 649
-        width: 54
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 737b7a0a5d5365f60800000000000000
-      internalID: 8022658977846769463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_54
       rect:
         serializedVersion: 2
@@ -1569,7 +777,7 @@ TextureImporter:
         width: 161
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1583,138 +791,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_55
-      rect:
-        serializedVersion: 2
-        x: 1007
-        y: 634
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3942e3c3a2cf46810800000000000000
-      internalID: 1757807012910867603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_56
-      rect:
-        serializedVersion: 2
-        x: 1041
-        y: 641
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf188bf191e9a0bd0800000000000000
-      internalID: -2663142398892670468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_57
-      rect:
-        serializedVersion: 2
-        x: 1084
-        y: 646
-        width: 7
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 362f6af26e46ca270800000000000000
-      internalID: 8263090356122743395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_58
-      rect:
-        serializedVersion: 2
-        x: 1112
-        y: 631
-        width: 25
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30ff7b962bb9571a0800000000000000
-      internalID: -6812367670747857149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_59
-      rect:
-        serializedVersion: 2
-        x: 1145
-        y: 621
-        width: 23
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb9b651e012e69a60800000000000000
-      internalID: 7680574776654870975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_60
-      rect:
-        serializedVersion: 2
-        x: 1172
-        y: 639
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a99d8ef0fe758930800000000000000
-      internalID: 4144858605592353192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_61
       rect:
         serializedVersion: 2
@@ -1723,7 +799,7 @@ TextureImporter:
         width: 164
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1745,7 +821,7 @@ TextureImporter:
         width: 159
         height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1767,7 +843,7 @@ TextureImporter:
         width: 162
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1784,12 +860,12 @@ TextureImporter:
       name: twan viem_64
       rect:
         serializedVersion: 2
-        x: 959
-        y: 501
-        width: 257
-        height: 137
+        x: 953
+        y: 499
+        width: 287
+        height: 162
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1803,191 +879,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_65
-      rect:
-        serializedVersion: 2
-        x: 1065
-        y: 632
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f2b5de9cce316ca0800000000000000
-      internalID: -6025465777885957384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_66
-      rect:
-        serializedVersion: 2
-        x: 957
-        y: 611
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6b48afacd2d2fafd0800000000000000
-      internalID: -2328592807625063242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_67
-      rect:
-        serializedVersion: 2
-        x: 1220
-        y: 611
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52d4e71b8073839e0800000000000000
-      internalID: -1641501553699435227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_68
-      rect:
-        serializedVersion: 2
-        x: 953
-        y: 585
-        width: 8
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 71d281120497b9cb0800000000000000
-      internalID: -4856154456848847593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_69
-      rect:
-        serializedVersion: 2
-        x: 1225
-        y: 583
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bf4d8f2e1790e8350800000000000000
-      internalID: 6020760136584844539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_70
-      rect:
-        serializedVersion: 2
-        x: 1216
-        y: 563
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a803872fb0b366dc0800000000000000
-      internalID: -3646161925811195766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_71
-      rect:
-        serializedVersion: 2
-        x: 1214
-        y: 537
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 289eef9ebab65d4c0800000000000000
-      internalID: -4263383086126929534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_72
-      rect:
-        serializedVersion: 2
-        x: 1222
-        y: 544
-        width: 16
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5de55a581a3555e30800000000000000
-      internalID: 4491588156568985301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_73
       rect:
         serializedVersion: 2
-        x: 17
+        x: 51
         y: 342
-        width: 1209
-        height: 163
+        width: 150
+        height: 131
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2001,28 +901,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_74
-      rect:
-        serializedVersion: 2
-        x: 811
-        y: 501
-        width: 7
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0f9bf84230df3db90800000000000000
-      internalID: -7218147587804644880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_75
       rect:
         serializedVersion: 2
@@ -2031,7 +909,7 @@ TextureImporter:
         width: 1209
         height: 187
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2053,7 +931,7 @@ TextureImporter:
         width: 57
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2075,7 +953,7 @@ TextureImporter:
         width: 16
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2097,7 +975,7 @@ TextureImporter:
         width: 52
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2116,10 +994,10 @@ TextureImporter:
         serializedVersion: 2
         x: 214
         y: 0
-        width: 122
+        width: 130
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2141,7 +1019,7 @@ TextureImporter:
         width: 144
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2155,59 +1033,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_81
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 143
-        width: 9
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 939892902389709a0800000000000000
-      internalID: -6266873015793252039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_82
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 85
-        width: 7
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98571ad9542104e80800000000000000
-      internalID: -8196531231607655031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_83
       rect:
         serializedVersion: 2
-        x: 46
+        x: 36
         y: 0
-        width: 139
+        width: 149
         height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2221,28 +1055,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_84
-      rect:
-        serializedVersion: 2
-        x: 332
-        y: 74
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4485e320af464360800000000000000
-      internalID: 7153492607340217418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: twan viem_85
       rect:
         serializedVersion: 2
@@ -2251,7 +1063,7 @@ TextureImporter:
         width: 164
         height: 132
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2273,7 +1085,7 @@ TextureImporter:
         width: 196
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2295,7 +1107,7 @@ TextureImporter:
         width: 117
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2317,7 +1129,7 @@ TextureImporter:
         width: 185
         height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2331,67 +1143,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: twan viem_89
+      name: twan viem_29
       rect:
         serializedVersion: 2
-        x: 33
-        y: 62
-        width: 14
-        height: 16
+        x: 924
+        y: 348
+        width: 303
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0fdb78f6d7648c580800000000000000
-      internalID: -8806711566766981648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_90
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 47
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98af4bfb31a5a0850800000000000000
-      internalID: 6343982065971952265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: twan viem_91
-      rect:
-        serializedVersion: 2
-        x: 36
-        y: 37
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4c1d21a81e9af8b0800000000000000
-      internalID: -5117604197932655537
+      spriteID: 24476ee287ca0194ba108380dafd9f5b
+      internalID: -860395870848884022
       vertices: []
       indices: 
       edges: []
@@ -2400,7 +1168,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 72ee07019aec2a0469693abe0cece489
     internalID: 0
     vertices: []
     indices: 

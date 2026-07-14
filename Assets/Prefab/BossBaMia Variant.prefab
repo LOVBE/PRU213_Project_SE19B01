@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4964391142412801545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5672486934435212636}
+  m_Layer: 0
+  m_Name: BaMiaMouth2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5672486934435212636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4964391142412801545}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.462, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6777196629962918305}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5259884009377025188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -70,11 +101,65 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 73a18ebfcf4838444b7bc1f71a1c2e01, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1653855493086954757, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5672486934435212636}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 517023653779118890, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4518649232869528019}
+    - targetCorrespondingSourceObject: {fileID: 517023653779118890, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1534983910469380675}
   m_SourcePrefab: {fileID: 100100000, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
 --- !u!4 &3336020438501512230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7400874659236780162, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
+  m_PrefabInstance: {fileID: 5259884009377025188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5751671654469490574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 517023653779118890, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
+  m_PrefabInstance: {fileID: 5259884009377025188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4518649232869528019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751671654469490574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ea88ea4596333498406da78e1df4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossDash
+  dashCooldown: 5
+  telegraphTime: 0.5
+  dashSpeed: 14
+  minDashDuration: 0.15
+  maxDashDuration: 1
+  dashDamage: 4
+  sr: {fileID: 0}
+  telegraphColor: {r: 1, g: 0.4, b: 0.4, a: 1}
+--- !u!114 &-1534983910469380675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5751671654469490574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c446bc52add2b994d96af32e0f3c9b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BossShoot
+  bamiaBulletPrefab: {fileID: 7800557386072290781, guid: 132d30b8e82502445802fdce22596bfb, type: 3}
+  firePoint: {fileID: 5672486934435212636}
+  fireRate: 2
+--- !u!4 &6777196629962918305 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1653855493086954757, guid: acc02f14d3385d24dbcb6b5fd9995537, type: 3}
   m_PrefabInstance: {fileID: 5259884009377025188}
   m_PrefabAsset: {fileID: 0}

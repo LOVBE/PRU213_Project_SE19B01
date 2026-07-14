@@ -40,13 +40,22 @@ public class PlayerExperience : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerPrefs.GetInt("HasSave", 0) == 1)
+        int hasSave = PlayerPrefs.GetInt("HasSave", 0);
+        Debug.Log($"[PlayerExperience] Start - HasSave: {hasSave}");
+
+        if (hasSave == 1)
         {
             currentLevel =
                 PlayerPrefs.GetInt("SavedLevel", 1);
 
             currentExp =
                 PlayerPrefs.GetInt("SavedExp", 0);
+
+            Debug.Log($"[PlayerExperience] Loaded từ save - Level: {currentLevel}, Exp: {currentExp}");
+        }
+        else
+        {
+            Debug.Log($"[PlayerExperience] Không có save - dùng giá trị mặc định Level: {currentLevel}");
         }
 
         if (player == null)
@@ -56,7 +65,12 @@ public class PlayerExperience : MonoBehaviour
 
         if (player != null)
         {
+            Debug.Log($"[PlayerExperience] Gọi SetLevel({currentLevel})");
             player.SetLevel(currentLevel);
+        }
+        else
+        {
+            Debug.LogError("[PlayerExperience] Không tìm thấy PlayerMovement component!");
         }
 
         UpdateUI();

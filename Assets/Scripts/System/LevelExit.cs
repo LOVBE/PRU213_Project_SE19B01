@@ -31,7 +31,6 @@ public class LevelExitTrigger : MonoBehaviour
 
     void Update()
     {
-        // làm cửa nhấp nháy
 
         if (glowDoor && doorGlow != null)
         {
@@ -90,10 +89,6 @@ public class LevelExitTrigger : MonoBehaviour
 
         glowDoor = false;
 
-        //-----------------------------------
-        // Fade trắng
-        //-----------------------------------
-
         float t = 0;
 
         while (t < 1)
@@ -108,9 +103,6 @@ public class LevelExitTrigger : MonoBehaviour
             yield return null;
         }
 
-        //-----------------------------------
-        // YOU WIN
-        //-----------------------------------
 
         youWinText.gameObject.SetActive(true);
 
@@ -132,6 +124,6 @@ public class LevelExitTrigger : MonoBehaviour
 
         GameManager.instance?.SavePlayerData();
 
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("IntroLevel3");
     }
 }

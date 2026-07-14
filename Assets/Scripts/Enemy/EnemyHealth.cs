@@ -9,6 +9,9 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 2;
     private int currentHealth;
 
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
+
     [Header("Drop EXP")]
     public GameObject expPrefab;
     public int expDropAmount = 1;

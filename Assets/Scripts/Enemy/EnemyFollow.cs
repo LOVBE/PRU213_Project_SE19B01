@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
@@ -12,6 +12,8 @@ public class EnemyFollow : MonoBehaviour
     private Transform player;
     private SpriteRenderer sr;
     private Rigidbody2D rb;
+
+    private bool movementEnabled = true;
 
     void Awake()
     {
@@ -44,6 +46,8 @@ public class EnemyFollow : MonoBehaviour
             if (sr != null) sr.color = Color.white;
         }
 
+        if (!movementEnabled) return;
+
         if (player != null)
         {
             Vector2 direction = (player.position - transform.position).normalized;
@@ -73,6 +77,12 @@ public class EnemyFollow : MonoBehaviour
             sr.color = new Color(0.5f, 0.8f, 1f);
         }
     }
+
+    public void SetMovementEnabled(bool enabled)
+    {
+        movementEnabled = enabled;
+    }
+
     protected virtual void OnCollisionStay2D(Collision2D collision)
     {
         TryDamagePlayer(collision.gameObject);
