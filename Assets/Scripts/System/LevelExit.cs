@@ -6,124 +6,285 @@ using System.Collections;
 
 public class LevelExitTrigger : MonoBehaviour
 {
-
     [Header("UI")]
-    public GameObject lockedHintUI;
-    public Image fadePanel;
-    public TMP_Text youWinText;
+    [SerializeField] private GameObject lockedHintUI;
+    [SerializeField] private Image fadePanel;
+    [SerializeField] private TMP_Text youWinText;
 
     [Header("Door Glow")]
-    public SpriteRenderer doorGlow;
+    [SerializeField] private SpriteRenderer doorGlow;
+    [SerializeField] private float glowSpeed = 2f;
+    [SerializeField] private float minGlowAlpha = 0.3f;
+    [SerializeField] private float maxGlowAlpha = 1f;
 
-    private bool bossIsDead = false;
-    private bool isLoading = false;
-    private bool glowDoor = false;
+    [Header("Scene Settings")]
+    [Tooltip("Tên scene sẽ chuyển tới sau khi hoàn thành level")]
+    [SerializeField] private string nextSceneName;
 
-    void OnEnable()
+    [Tooltip("Nếu bật, level không cần boss chết vẫn có thể kết thúc")]
+    [SerializeField] private bool requireBossDefeated = true;
+
+    [Tooltip("Thời gian fade màn hình")]
+    [SerializeField] private float fadeDuration = 1f;
+
+    [Tooltip("Thời gian hiện chữ You Win")]
+    [SerializeField] private float winTextDuration = 1f;
+
+    [Tooltip("Thời gian chờ trước khi đổi scene")]
+    [SerializeField] private float delayBeforeLoad = 2f;
+
+    private bool bossIsDead;
+    private bool isLoading;
+    private bool glowDoor;
+
+    private void Awake()
+    {
+        PrepareUI();
+
+        if (!requireBossDefeated)
+        {
+            bossIsDead = true;
+            glowDoor = true;
+        }
+    }
+
+    private void OnEnable()
     {
         EnemyHealth.OnBossDied += HandleBossDied;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
         EnemyHealth.OnBossDied -= HandleBossDied;
     }
 
-    void Update()
+    private void Update()
     {
+        UpdateDoorGlow();
+    }
 
-        if (glowDoor && doorGlow != null)
+    private void PrepareUI()
+    {
+        if (lockedHintUI != null)
         {
-            float alpha = Mathf.Lerp(0.3f, 1f,
-                Mathf.PingPong(Time.time * 2f, 1));
+            lockedHintUI.SetActive(false);
+        }
 
-            Color c = doorGlow.color;
-            c.a = alpha;
-            doorGlow.color = c;
+        if (fadePanel != null)
+        {
+            Color fadeColor = fadePanel.color;
+            fadeColor.a = 0f;
+            fadePanel.color = fadeColor;
+
+            fadePanel.gameObject.SetActive(true);
+        }
+
+        if (youWinText != null)
+        {
+            Color textColor = youWinText.color;
+            textColor.a = 0f;
+            youWinText.color = textColor;
+
+            youWinText.gameObject.SetActive(false);
         }
     }
 
-    void HandleBossDied()
+    private void UpdateDoorGlow()
+    {
+        if (!glowDoor || doorGlow == null || isLoading)
+        {
+            return;
+        }
+
+        float pingPong = Mathf.PingPong(Time.time * glowSpeed, 1f);
+        float alpha = Mathf.Lerp(minGlowAlpha, maxGlowAlpha, pingPong);
+
+        Color color = doorGlow.color;
+        color.a = alpha;
+        doorGlow.color = color;
+    }
+
+    private void HandleBossDied()
     {
         bossIsDead = true;
-
         glowDoor = true;
 
-        Debug.Log("Boss defeated!");
+        Debug.Log("Boss defeated! Exit door unlocked.");
 
         if (lockedHintUI != null)
+        {
             lockedHintUI.SetActive(false);
+        }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (!other.CompareTag("Player") || isLoading)
+        {
+            return;
+        }
+
+        bool canExit = !requireBossDefeated || bossIsDead;
+
+        if (!canExit)
+        {
+            if (lockedHintUI != null)
+            {
+                lockedHintUI.SetActive(true);
+            }
+
+            return;
+        }
+
+        StartCoroutine(WinSequence());
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (!other.CompareTag("Player"))
-            return;
-
-        if (!bossIsDead)
         {
-            if (lockedHintUI != null)
-                lockedHintUI.SetActive(true);
-
             return;
         }
 
-        if (!isLoading)
+        if (lockedHintUI != null)
         {
-            StartCoroutine(WinSequence());
+            lockedHintUI.SetActive(false);
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            if (lockedHintUI != null)
-                lockedHintUI.SetActive(false);
-        }
-    }
-
-    IEnumerator WinSequence()
+    private IEnumerator WinSequence()
     {
         isLoading = true;
-
         glowDoor = false;
 
-        float t = 0;
-
-        while (t < 1)
+        if (lockedHintUI != null)
         {
-            t += Time.deltaTime;
+            lockedHintUI.SetActive(false);
+        }
 
-            Color c = fadePanel.color;
-            c.a = t;
+        yield return FadeImage(fadePanel, 0f, 1f, fadeDuration);
 
-            fadePanel.color = c;
+        if (youWinText != null)
+        {
+            youWinText.gameObject.SetActive(true);
+            yield return FadeText(youWinText, 0f, 1f, winTextDuration);
+        }
+
+        yield return new WaitForSecondsRealtime(delayBeforeLoad);
+
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.SavePlayerData();
+        }
+
+        LoadNextScene();
+    }
+
+    private IEnumerator FadeImage(
+        Image image,
+        float startAlpha,
+        float endAlpha,
+        float duration)
+    {
+        if (image == null)
+        {
+            yield break;
+        }
+
+        if (duration <= 0f)
+        {
+            SetImageAlpha(image, endAlpha);
+            yield break;
+        }
+
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float progress = Mathf.Clamp01(elapsed / duration);
+            float alpha = Mathf.Lerp(startAlpha, endAlpha, progress);
+
+            SetImageAlpha(image, alpha);
 
             yield return null;
         }
 
+        SetImageAlpha(image, endAlpha);
+    }
 
-        youWinText.gameObject.SetActive(true);
-
-        t = 0;
-
-        while (t < 1)
+    private IEnumerator FadeText(
+        TMP_Text text,
+        float startAlpha,
+        float endAlpha,
+        float duration)
+    {
+        if (text == null)
         {
-            t += Time.deltaTime;
+            yield break;
+        }
 
-            Color c = youWinText.color;
-            c.a = t;
+        if (duration <= 0f)
+        {
+            SetTextAlpha(text, endAlpha);
+            yield break;
+        }
 
-            youWinText.color = c;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.unscaledDeltaTime;
+
+            float progress = Mathf.Clamp01(elapsed / duration);
+            float alpha = Mathf.Lerp(startAlpha, endAlpha, progress);
+
+            SetTextAlpha(text, alpha);
 
             yield return null;
         }
 
-        yield return new WaitForSeconds(2);
+        SetTextAlpha(text, endAlpha);
+    }
 
-        GameManager.instance?.SavePlayerData();
+    private static void SetImageAlpha(Image image, float alpha)
+    {
+        Color color = image.color;
+        color.a = alpha;
+        image.color = color;
+    }
 
-        SceneManager.LoadScene("IntroLevel3");
+    private static void SetTextAlpha(TMP_Text text, float alpha)
+    {
+        Color color = text.color;
+        color.a = alpha;
+        text.color = color;
+    }
+
+    private void LoadNextScene()
+    {
+        if (string.IsNullOrWhiteSpace(nextSceneName))
+        {
+            Debug.LogError(
+                $"Next Scene Name chưa được nhập trên object {gameObject.name}."
+            );
+
+            isLoading = false;
+            return;
+        }
+
+        if (!Application.CanStreamedLevelBeLoaded(nextSceneName))
+        {
+            Debug.LogError(
+                $"Scene '{nextSceneName}' chưa có trong Build Profiles/Build Settings."
+            );
+
+            isLoading = false;
+            return;
+        }
+
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(nextSceneName);
     }
 }

@@ -5350,6 +5350,14 @@ MonoBehaviour:
   fadePanel: {fileID: 1692494133}
   youWinText: {fileID: 832887448}
   doorGlow: {fileID: 366358607}
+  glowSpeed: 2
+  minGlowAlpha: 0.3
+  maxGlowAlpha: 1
+  nextSceneName: IntroLevel3
+  requireBossDefeated: 1
+  fadeDuration: 1
+  winTextDuration: 1
+  delayBeforeLoad: 2
 --- !u!61 &1373634865
 BoxCollider2D:
   m_ObjectHideFlags: 0
