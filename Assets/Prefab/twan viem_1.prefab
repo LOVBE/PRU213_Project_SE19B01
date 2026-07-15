@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1873163099673205271}
   - component: {fileID: 5816474207383103114}
   - component: {fileID: 8008711813591643047}
+  - component: {fileID: 7078930853735359550}
   m_Layer: 0
   m_Name: twan viem_1
   m_TagString: Boss
@@ -228,6 +229,7 @@ MonoBehaviour:
   minDashDuration: 0.15
   maxDashDuration: 1
   dashDamage: 4
+  autoTrigger: 1
   sr: {fileID: 0}
   telegraphColor: {r: 1, g: 0.4, b: 0.4, a: 1}
 --- !u!114 &5816474207383103114
@@ -265,6 +267,46 @@ MonoBehaviour:
   ballDamage: 2
   ballScale: 1.5
   spreadAngle: 30
+--- !u!114 &7078930853735359550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7866586344521083934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aab02828611e6f429e04e64e4716b53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.script.BossCodeOverload
+  cooldown: 12
+  telegraphTime: 0.6
+  jumpDuration: 0.35
+  landOffset: 1
+  arcHeight: 1.5
+  explodeDelay: 0.25
+  explodeHoldTime: 0.3
+  explosionRadius: 4
+  overloadDamage: 6
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  lingerDuration: 6.5
+  lingerTickInterval: 1
+  lingerDamagePerTick: 2
+  lingerRadius: -1
+  lingerColor: {r: 0.6, g: 0.3, b: 1, a: 0.35}
+  warningColor: {r: 0.6, g: 0.3, b: 1, a: 0.8}
+  warningLineWidth: 0.08
+  warningSegments: 36
+  warningSortingOrder: 10
+  warningSortingLayerName: 20
+  animator: {fileID: 2328274935399727389}
+  attackTrigger: Attack4
+  telegraphTrigger: Telegraph
+  landTrigger: 
+  sr: {fileID: 0}
+  chargeColor: {r: 0.6, g: 0.3, b: 1, a: 1}
 --- !u!1 &8616416196985110127
 GameObject:
   m_ObjectHideFlags: 0
