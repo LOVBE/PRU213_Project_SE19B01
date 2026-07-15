@@ -1408,7 +1408,7 @@ MonoBehaviour:
   - skillName: Fire Burst
     unlockLevel: 3
     cooldown: 5
-    aoePrefab: {fileID: 0}
+    aoePrefab: {fileID: 33068519998941787, guid: ec804ec9bf600934f96736643411e1b3, type: 3}
     damage: 30
     radius: 4
     lifeTime: 0.6
@@ -1419,7 +1419,7 @@ MonoBehaviour:
   - skillName: Ice Nova
     unlockLevel: 6
     cooldown: 8
-    aoePrefab: {fileID: 0}
+    aoePrefab: {fileID: 5996652131827621900, guid: 93762639a84659147aac161d7e8bc93b, type: 3}
     damage: 50
     radius: 5
     lifeTime: 0.7
@@ -1430,7 +1430,7 @@ MonoBehaviour:
   - skillName: Thunder Storm
     unlockLevel: 9
     cooldown: 12
-    aoePrefab: {fileID: 0}
+    aoePrefab: {fileID: 4221491217168786654, guid: cdc8057cf5ebaa4469eaa589ffd8d545, type: 3}
     damage: 100
     radius: 7
     lifeTime: 0.8
