@@ -3,6 +3,10 @@ using UnityEngine.UI;
 
 public class BossTwanViemEncounter : MonoBehaviour
 {
+    [Header("Trigger Settings")]
+    [Tooltip("Level yêu cầu để boss này xuất hiện. Đổi số này cho từng boss khác nhau (vd Twan Viem = 10, boss khác = 18)")]
+    public int requiredLevel = 10;
+
     [Header("Boss Settings")]
     public GameObject bossPrefab;
     public Transform spawnPoint;
@@ -26,8 +30,8 @@ public class BossTwanViemEncounter : MonoBehaviour
 
     void Update()
     {
-        // Kiểm tra level 10
-        if (!triggered && playerExperience != null && playerExperience.currentLevel >= 10)
+        // Kiểm tra level yêu cầu (khác nhau tuỳ boss, cấu hình qua requiredLevel)
+        if (!triggered && playerExperience != null && playerExperience.currentLevel >= requiredLevel)
         {
             ShowIntro();
         }
@@ -43,24 +47,20 @@ public class BossTwanViemEncounter : MonoBehaviour
     {
         triggered = true;
         waitingClick = true;
-
         if (introPanel != null)
         {
             introPanel.SetActive(true);
             if (introImage != null && bossSprite != null)
                 introImage.sprite = bossSprite;
         }
-
         Time.timeScale = 0f;
     }
 
     void SpawnBoss()
     {
         waitingClick = false;
-
         if (introPanel != null)
             introPanel.SetActive(false);
-
         Time.timeScale = 1f;
 
         if (bossPrefab != null && spawnPoint != null)
