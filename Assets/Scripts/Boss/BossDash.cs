@@ -6,7 +6,7 @@ using Assets.script;
 public class BossDash : MonoBehaviour
 {
     [Header("Dash Settings")]
-    public float dashCooldown = 5f;      // Khoảng cách thời gian giữa 2 lần dash
+    public float dashCooldown = 5f;      // Khoảng cách thời gian giữa 2 lần dash (chỉ dùng khi tự động)
     public float telegraphTime = 0.5f;   // Thời gian đứng yên báo trước khi lao (để Player kịp né)
     public float dashSpeed = 14f;        // Tốc độ lúc lao, nên nhanh hơn hẳn moveSpeed thường (vd 2)
 
@@ -19,8 +19,16 @@ public class BossDash : MonoBehaviour
     [Header("Dash Damage")]
     public int dashDamage = 4;           // Damage gây ra khi va chạm Player LÚC ĐANG DASH (cao hơn damage thường)
 
+    [Header("Control Mode")]
+    [Tooltip("Nếu TRUE: BossDash sẽ tự dash theo dashCooldown như bình thường.\n" +
+             "Nếu FALSE: BossDash sẽ KHÔNG tự dash nữa, phải gọi PerformDash() từ script khác (vd BossSkillController).")]
+    public bool autoTrigger = true;
+
     // Cho script khác (BossFollow) kiểm tra xem Boss có đang trong lúc lao hay không
     public bool IsDashing { get; private set; } = false;
+
+    // Cho script điều khiển bên ngoài (BossSkillController) biết Boss có đang bận dash/telegraph không
+    public bool IsBusy => isBusy;
 
     [Header("Visual Feedback (tuỳ chọn)")]
     public SpriteRenderer sr;            // Để trống sẽ tự tìm trên chính object này
@@ -51,17 +59,23 @@ public class BossDash : MonoBehaviour
 
     void Update()
     {
+        if (!autoTrigger) return; // Đang bị điều khiển từ bên ngoài (vd BossSkillController) -> không tự dash
         if (player == null || isBusy) return;
 
-        // Cooldown luôn đếm liên tục, KHÔNG phụ thuộc khoảng cách tới Player nữa.
-        // Nếu Player đứng xa, Dash vẫn kích hoạt và rút ngắn khoảng cách (giới hạn bởi maxDashDuration),
-        // tránh tình trạng Player chạy xa khiến Dash không bao giờ kích hoạt được.
         cooldownTimer -= Time.deltaTime;
         if (cooldownTimer <= 0f)
         {
             cooldownTimer = dashCooldown;
             StartCoroutine(DashRoutine());
         }
+    }
+
+    // Gọi hàm này từ script khác (vd BossSkillController) để thực hiện 1 lần dash theo lệnh,
+    // dùng chung được với chế độ autoTrigger = false.
+    public IEnumerator PerformDash()
+    {
+        if (isBusy) yield break; // đang bận thì không dash chồng lên
+        yield return StartCoroutine(DashRoutine());
     }
 
     IEnumerator DashRoutine()
@@ -77,13 +91,11 @@ public class BossDash : MonoBehaviour
         if (sr != null) sr.color = originalColor;
 
         // 2. Chốt hướng + tính quãng đường tới ĐÚNG vị trí Player NGAY thời điểm này
-        //    (Player vẫn di chuyển bình thường được trong và sau lúc này, boss không "bám" theo nữa)
         Vector2 startPos = rb.position;
         Vector2 targetPos = player != null ? (Vector2)player.position : startPos;
         float distance = Vector2.Distance(startPos, targetPos);
         dashDirection = distance > 0.01f ? (targetPos - startPos).normalized : Vector2.zero;
 
-        // Thời gian lao = quãng đường / tốc độ, giới hạn trong khoảng an toàn (min/max)
         float computedDuration = Mathf.Clamp(distance / dashSpeed, minDashDuration, maxDashDuration);
 
         // 3. Thực hiện lao trong computedDuration giây
@@ -98,6 +110,8 @@ public class BossDash : MonoBehaviour
         IsDashing = false;
 
         // 4. Kết thúc dash, trả lại quyền bám đuổi bình thường cho EnemyFollow
+        //    (nếu đang trong chuỗi dash liên tục do BossSkillController điều khiển,
+        //     controller sẽ tự tắt lại ngay sau đó cho lần dash kế tiếp)
         if (follow != null) follow.SetMovementEnabled(true);
 
         isBusy = false;

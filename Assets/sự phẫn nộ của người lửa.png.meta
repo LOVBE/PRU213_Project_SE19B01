@@ -1,0 +1,1987 @@
+fileFormatVersion: 2
+guid: 6b5b3a4a364d5a7428ec34a1fb3804b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5633623907483081364
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_0"
+  - first:
+      213: -2858903383920845704
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_1"
+  - first:
+      213: -6229313284008293593
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_2"
+  - first:
+      213: -6513322537023740183
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_3"
+  - first:
+      213: 5554467861752063964
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_4"
+  - first:
+      213: 5278655298818392846
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_5"
+  - first:
+      213: 150236181600277245
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_6"
+  - first:
+      213: -4803867474747081054
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_7"
+  - first:
+      213: 7262981209731211111
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_8"
+  - first:
+      213: -4650196524616824335
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_9"
+  - first:
+      213: 642777161103889161
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_10"
+  - first:
+      213: -6520681466705857426
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_11"
+  - first:
+      213: 5341391502058828530
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_12"
+  - first:
+      213: -7444929230566016032
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_13"
+  - first:
+      213: -8233465499544390322
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_14"
+  - first:
+      213: -4207333471933722309
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_15"
+  - first:
+      213: 8169798302430550370
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_16"
+  - first:
+      213: -5636260934495211957
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_17"
+  - first:
+      213: -542360551831071988
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_18"
+  - first:
+      213: 414906854172217429
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_19"
+  - first:
+      213: 7033486711186145186
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_20"
+  - first:
+      213: -8291966767211021126
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_21"
+  - first:
+      213: -615205208817534838
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_22"
+  - first:
+      213: 2291564131819030446
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_23"
+  - first:
+      213: -895604704901857496
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_24"
+  - first:
+      213: -741323583530064627
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_25"
+  - first:
+      213: 6457380772191102211
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_26"
+  - first:
+      213: 7889836243155735054
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_27"
+  - first:
+      213: 3365009372566187168
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_28"
+  - first:
+      213: -7876073470367318121
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_29"
+  - first:
+      213: -2757837710094556109
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_30"
+  - first:
+      213: 2944659983985459226
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_31"
+  - first:
+      213: -6195414467264819154
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_32"
+  - first:
+      213: -7681058698102495018
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_33"
+  - first:
+      213: 8309021620713219656
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_34"
+  - first:
+      213: -8739892970556393930
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_35"
+  - first:
+      213: -3169095653603047784
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_36"
+  - first:
+      213: -7580277281117539563
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_37"
+  - first:
+      213: -1842091083361357141
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_38"
+  - first:
+      213: 6803524370193056295
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_39"
+  - first:
+      213: -6092386147773489677
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_40"
+  - first:
+      213: -1217809572021257107
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_41"
+  - first:
+      213: 6119745785733044687
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_42"
+  - first:
+      213: -7978047106942123666
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_43"
+  - first:
+      213: -8488425543926645577
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_44"
+  - first:
+      213: -6420751095105777273
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_45"
+  - first:
+      213: 6192445234338838127
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_46"
+  - first:
+      213: -3464577599822909775
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_47"
+  - first:
+      213: -2003617052260201742
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_48"
+  - first:
+      213: 1857395212755525076
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_49"
+  - first:
+      213: -3894263767237673159
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_50"
+  - first:
+      213: 5314649733324711100
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_51"
+  - first:
+      213: -6644527113922293977
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_52"
+  - first:
+      213: 5612828810015622769
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_53"
+  - first:
+      213: 742293241309371567
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_54"
+  - first:
+      213: 4305771126738275247
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_55"
+  - first:
+      213: -2552431105347644293
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_56"
+  - first:
+      213: 4853807930484095521
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_57"
+  - first:
+      213: 462541066322193984
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_58"
+  - first:
+      213: 7033863304352312631
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_59"
+  - first:
+      213: -6446419832775953707
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_60"
+  - first:
+      213: -7560022840347636466
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_61"
+  - first:
+      213: -6172484270121734619
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_62"
+  - first:
+      213: -5581764654894538833
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_63"
+  - first:
+      213: 8987845844574190377
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_64"
+  - first:
+      213: 4163261558062279951
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_65"
+  - first:
+      213: 5820402470904384821
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_66"
+  - first:
+      213: -1942690277797250412
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_67"
+  - first:
+      213: 3814406013117294342
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_68"
+  - first:
+      213: 4353641651094821916
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_69"
+  - first:
+      213: -405587936925166382
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_70"
+  - first:
+      213: 6400942400665830185
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_71"
+  - first:
+      213: -2808606746613253586
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_72"
+  - first:
+      213: 2814049107707656049
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_73"
+  - first:
+      213: 5682585708039461842
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_74"
+  - first:
+      213: 4743709002091341156
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_75"
+  - first:
+      213: 5539670239144293766
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_76"
+  - first:
+      213: -5930294400273719954
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_77"
+  - first:
+      213: 3329209157461634420
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_78"
+  - first:
+      213: -3824533859131326842
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_79"
+  - first:
+      213: 815914339500917047
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_80"
+  - first:
+      213: 1655178560956696370
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_81"
+  - first:
+      213: 3582533263507881429
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_82"
+  - first:
+      213: -3620020936837247916
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_83"
+  - first:
+      213: 9123966462712562838
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_84"
+  - first:
+      213: 2637696029678309644
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_85"
+  - first:
+      213: 2843139667229674688
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_86"
+  - first:
+      213: -216123743049077476
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_87"
+  - first:
+      213: -6283152048303733467
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_88"
+  - first:
+      213: 8580893308416878418
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_89"
+  - first:
+      213: 3103550242631587540
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_90"
+  - first:
+      213: 8339620785475050594
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_91"
+  - first:
+      213: -4371834707896635347
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_92"
+  - first:
+      213: 5759183715955512495
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_93"
+  - first:
+      213: -1918137120905405124
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_94"
+  - first:
+      213: -2416191650090127644
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_95"
+  - first:
+      213: 6027682806136019287
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_96"
+  - first:
+      213: 3710653541158900093
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_97"
+  - first:
+      213: -5919777148184753991
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_98"
+  - first:
+      213: 4176710557965778097
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_99"
+  - first:
+      213: -5125244357843518193
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_100"
+  - first:
+      213: 3216719543695625699
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_101"
+  - first:
+      213: 8260451553432725523
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_102"
+  - first:
+      213: -2909877279734149175
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_103"
+  - first:
+      213: 5628121624064947068
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_104"
+  - first:
+      213: -5432256612244516320
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_105"
+  - first:
+      213: 4597175173489327424
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_106"
+  - first:
+      213: 6559843363103339606
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_107"
+  - first:
+      213: -8322734324238061812
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_108"
+  - first:
+      213: 1292190736194708828
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_109"
+  - first:
+      213: 8970857210402120221
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_110"
+  - first:
+      213: -8824442592245964860
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_111"
+  - first:
+      213: -7092494144217939599
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_112"
+  - first:
+      213: 8108387324395362391
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_113"
+  - first:
+      213: -127274336472550298
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_114"
+  - first:
+      213: 1532396179300746024
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_115"
+  - first:
+      213: -1006254451785744815
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_116"
+  - first:
+      213: 3296664043645542126
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_117"
+  - first:
+      213: 316901918996145023
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_118"
+  - first:
+      213: 3107726457328054319
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_119"
+  - first:
+      213: -4873678910249773057
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_120"
+  - first:
+      213: 4569672861583796651
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_121"
+  - first:
+      213: -1792657915873221394
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_122"
+  - first:
+      213: 1283166064948855790
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_123"
+  - first:
+      213: 4967833647530678684
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_124"
+  - first:
+      213: -1831238228029418102
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_125"
+  - first:
+      213: -6220122773046391326
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_126"
+  - first:
+      213: -7817119384009742976
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_127"
+  - first:
+      213: -1085933153956727143
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_128"
+  - first:
+      213: 7548368743799319042
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_129"
+  - first:
+      213: 4478694096595945182
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_130"
+  - first:
+      213: 1371215566799400111
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_131"
+  - first:
+      213: 7489004068304334477
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_132"
+  - first:
+      213: 8537599392584246501
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_133"
+  - first:
+      213: -6423496388656151557
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_134"
+  - first:
+      213: 4494372401567170303
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_135"
+  - first:
+      213: 6313603016739990616
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_136"
+  - first:
+      213: -881817660947621583
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_137"
+  - first:
+      213: -7107404359999952241
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_138"
+  - first:
+      213: 3026989042260743305
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_139"
+  - first:
+      213: 1632319769077353014
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_140"
+  - first:
+      213: -3362755137075653615
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_141"
+  - first:
+      213: 3291711195685508437
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_142"
+  - first:
+      213: 7836967571947152351
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_143"
+  - first:
+      213: -7993606185727727772
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_144"
+  - first:
+      213: 4929296933797247612
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_145"
+  - first:
+      213: -8377327714219010727
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_146"
+  - first:
+      213: 7131578856711739854
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_147"
+  - first:
+      213: 5863604497328570015
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_148"
+  - first:
+      213: 3219628844673190994
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_149"
+  - first:
+      213: 7778502681628427838
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_150"
+  - first:
+      213: -6406316146351093911
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_151"
+  - first:
+      213: -8696648958449062600
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_152"
+  - first:
+      213: 3459179241940225143
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_153"
+  - first:
+      213: -7769361026622303650
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_154"
+  - first:
+      213: -8166299926957954096
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_155"
+  - first:
+      213: 6277356813938524196
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_156"
+  - first:
+      213: 435182647889848863
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_157"
+  - first:
+      213: 3969844359782150148
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_158"
+  - first:
+      213: -6485193365506563570
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_159"
+  - first:
+      213: -4900291038222343340
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_160"
+  - first:
+      213: 1136005340961515179
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_161"
+  - first:
+      213: -4370248893302083621
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_162"
+  - first:
+      213: 2724626403974186128
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_163"
+  - first:
+      213: -7451426115280810978
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_164"
+  - first:
+      213: 1039565419946530828
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_165"
+  - first:
+      213: 2923075905568506902
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_166"
+  - first:
+      213: 8198831524999251024
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_167"
+  - first:
+      213: -7003953511251991203
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_168"
+  - first:
+      213: -2030178685574637313
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_169"
+  - first:
+      213: -8517373374663609072
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_170"
+  - first:
+      213: 9101572392695749932
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_171"
+  - first:
+      213: 1401835544419582611
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_172"
+  - first:
+      213: -7480598492041238928
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_173"
+  - first:
+      213: -7554129263164686795
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_174"
+  - first:
+      213: -7206156189337947709
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_175"
+  - first:
+      213: -7325901510233611550
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_176"
+  - first:
+      213: 8504813702549044882
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_177"
+  - first:
+      213: 181752036913126632
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_178"
+  - first:
+      213: -5404744623343261615
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_179"
+  - first:
+      213: -6466088669777447372
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_180"
+  - first:
+      213: -6000688562321008226
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_181"
+  - first:
+      213: -8116975299468395068
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_182"
+  - first:
+      213: -8228025018751815454
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_183"
+  - first:
+      213: -2242930418005547033
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_184"
+  - first:
+      213: 2610443842114397069
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_185"
+  - first:
+      213: 1665706955624881142
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_186"
+  - first:
+      213: 2098905085254491047
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_187"
+  - first:
+      213: -8682845512294497582
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_188"
+  - first:
+      213: 3821163882814091776
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_189"
+  - first:
+      213: 8363904337462123718
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_190"
+  - first:
+      213: -2612640963494531318
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_191"
+  - first:
+      213: 5705605519107096718
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_192"
+  - first:
+      213: 4545724158827522180
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_193"
+  - first:
+      213: 7920323048383360150
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_194"
+  - first:
+      213: -2783060494607838064
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_195"
+  - first:
+      213: -3531440690995627926
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_196"
+  - first:
+      213: -1345716867488478826
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_197"
+  - first:
+      213: 9182732860196448072
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_198"
+  - first:
+      213: 2722062205974531995
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_199"
+  - first:
+      213: 8931499941111014549
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_200"
+  - first:
+      213: -426612413811769872
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_201"
+  - first:
+      213: -4969948977765468850
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_202"
+  - first:
+      213: -5459790087971227804
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_203"
+  - first:
+      213: 5581960172720809237
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_204"
+  - first:
+      213: 5214407025661863275
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_205"
+  - first:
+      213: -9107098478518144666
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_206"
+  - first:
+      213: 6257869011289086055
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_207"
+  - first:
+      213: 8286672956183439257
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_208"
+  - first:
+      213: 4728894168754612892
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_209"
+  - first:
+      213: -2182528211671917247
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_210"
+  - first:
+      213: -289556587688533363
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_211"
+  - first:
+      213: -3578585634954756052
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_212"
+  - first:
+      213: -587984144337686028
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_213"
+  - first:
+      213: -3601354600160434020
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_214"
+  - first:
+      213: 3895197274467442794
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_215"
+  - first:
+      213: -1154621857303300936
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_216"
+  - first:
+      213: -233083560614441196
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_217"
+  - first:
+      213: 5535528549220524984
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_218"
+  - first:
+      213: -8249900538536993079
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_219"
+  - first:
+      213: 3712466086090119191
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_220"
+  - first:
+      213: 40442368132901931
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_221"
+  - first:
+      213: -4815080711555741928
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_222"
+  - first:
+      213: -6139772526017757681
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_223"
+  - first:
+      213: 6336811391982340700
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_224"
+  - first:
+      213: -7321818143719632157
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_225"
+  - first:
+      213: -4766659415173823556
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_226"
+  - first:
+      213: -2961800236544038079
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_227"
+  - first:
+      213: -152160865565078587
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_228"
+  - first:
+      213: -3007606132818647503
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_229"
+  - first:
+      213: -8931493584983506259
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_230"
+  - first:
+      213: 2564166848820679545
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_231"
+  - first:
+      213: -5893090976103968440
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_232"
+  - first:
+      213: -6543281749265224988
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_233"
+  - first:
+      213: 7819491454472973483
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_234"
+  - first:
+      213: 5942149418594679728
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_235"
+  - first:
+      213: 7135552722023751848
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_236"
+  - first:
+      213: -514190708590375133
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_237"
+  - first:
+      213: 3962341810490204640
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_238"
+  - first:
+      213: -8069650316399811012
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_239"
+  - first:
+      213: 2585525405061037575
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_240"
+  - first:
+      213: 1926819329652236134
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_241"
+  - first:
+      213: 8029915990965878754
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_242"
+  - first:
+      213: 5629880732868782139
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_243"
+  - first:
+      213: -8631741650991046024
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_244"
+  - first:
+      213: 6931151264651433183
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_245"
+  - first:
+      213: 8724066214597803984
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_246"
+  - first:
+      213: 1077817258604811125
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_247"
+  - first:
+      213: 1314569014682761650
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_248"
+  - first:
+      213: 6806194203514558
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_249"
+  - first:
+      213: -3466782161681056636
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_250"
+  - first:
+      213: -4551546887223021527
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_251"
+  - first:
+      213: 4109594967638765069
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_252"
+  - first:
+      213: 7190505151824475662
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_253"
+  - first:
+      213: -8586998746127250185
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_254"
+  - first:
+      213: 4464011923726900741
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_255"
+  - first:
+      213: 5660484398747556949
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_256"
+  - first:
+      213: 1427029163525092670
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_257"
+  - first:
+      213: -204451934578652073
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_258"
+  - first:
+      213: 6214110372294936083
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_259"
+  - first:
+      213: 8216428893422481658
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_260"
+  - first:
+      213: 4215553993237861490
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_261"
+  - first:
+      213: -7998221790407982283
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_262"
+  - first:
+      213: -3045614467314460249
+    second: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_263"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_0"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 484
+        width: 229
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65a25487e851d1b0800000000000000
+      internalID: -5633623907483081364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_44"
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 1019
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc76eff0fd033a80800000000000000
+      internalID: -8488425543926645577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_58"
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 935
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e2a2036a64b6600800000000000000
+      internalID: 462541066322193984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_59"
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 952
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d2396886d4d9160800000000000000
+      internalID: 7033863304352312631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_87"
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 640
+        width: 96
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d280cc99c200df0800000000000000
+      internalID: -216123743049077476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_88"
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 641
+        width: 107
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525861b6082cdc8a0800000000000000
+      internalID: -6283152048303733467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_89"
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 640
+        width: 103
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257e6bf1005751770800000000000000
+      internalID: 8580893308416878418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_90"
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 638
+        width: 102
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d612aa9086021b20800000000000000
+      internalID: 3103550242631587540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_91"
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 641
+        width: 105
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c54bf4be84cb370800000000000000
+      internalID: 8339620785475050594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_92"
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 640
+        width: 106
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20f8130f7f1453c0800000000000000
+      internalID: -4371834707896635347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_110"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 642
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1225cc6a13ee7c70800000000000000
+      internalID: 8970857210402120221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_111"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 641
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf1a5c5738498580800000000000000
+      internalID: -8824442592245964860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_121"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 480
+        width: 117
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9e176a14dba6f30800000000000000
+      internalID: 4569672861583796651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_122"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 607
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4a5989f133f17e0800000000000000
+      internalID: -1792657915873221394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_123"
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 479
+        width: 201
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3cc11dcb8bec110800000000000000
+      internalID: 1283166064948855790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_124"
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 484
+        width: 202
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c999c48b16a41f440800000000000000
+      internalID: 4967833647530678684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_125"
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 478
+        width: 126
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85d03fa8822696e0800000000000000
+      internalID: -1831238228029418102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_146"
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 326
+        width: 149
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955d0f234d0cdbb80800000000000000
+      internalID: -8377327714219010727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_149"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 326
+        width: 121
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cc85b306b6eac20800000000000000
+      internalID: 3219628844673190994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_150"
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 317
+        width: 148
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36c2e60afac2fb60800000000000000
+      internalID: 7778502681628427838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_151"
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 309
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967c4e138613817a0800000000000000
+      internalID: -6406316146351093911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_152"
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 313
+        width: 180
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d6f5f59db4f4780800000000000000
+      internalID: -8696648958449062600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_158"
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 378
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400376e7968b71730800000000000000
+      internalID: 3969844359782150148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_161"
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 352
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba625fab6d6e3cf00800000000000000
+      internalID: 1136005340961515179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_167"
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 335
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054cadc25d918c170800000000000000
+      internalID: 8198831524999251024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_174"
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 317
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e7fa965775a2790800000000000000
+      internalID: -7554129263164686795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_175"
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 317
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1778a20279efb90800000000000000
+      internalID: -7206156189337947709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_185"
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 144
+        width: 249
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83a55bf7d82a3420800000000000000
+      internalID: 2610443842114397069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_212"
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 204
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20c43e335f465ec0800000000000000
+      internalID: -3578585634954756052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_233"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 13
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eaefb5bae79135a0800000000000000
+      internalID: -6543281749265224988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_234"
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 13
+        width: 107
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac60146c0a648c60800000000000000
+      internalID: 7819491454472973483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_235"
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 10
+        width: 125
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb31a1d961c67250800000000000000
+      internalID: 5942149418594679728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_236"
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 12
+        width: 175
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a02c481563960360800000000000000
+      internalID: 7135552722023751848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_238"
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 10
+        width: 186
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e162fc12e01df630800000000000000
+      internalID: 3962341810490204640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_2"
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 12
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37ff45a1691df44e8103f71b628ac9d
+      internalID: -6229313284008293593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_3"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1239
+        width: 42
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82fa347523626a499df8a9b16599495
+      internalID: -6513322537023740183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_4"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1236
+        width: 19
+        height: 2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad45891e305370b4f9b34d682363fdd6
+      internalID: 5554467861752063964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 05721dcb62203754785acbb98d4dd9cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_0": -5633623907483081364
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_1": -2858903383920845704
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_10": 642777161103889161
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_100": -5125244357843518193
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_101": 3216719543695625699
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_102": 8260451553432725523
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_103": -2909877279734149175
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_104": 5628121624064947068
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_105": -5432256612244516320
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_106": 4597175173489327424
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_107": 6559843363103339606
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_108": -8322734324238061812
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_109": 1292190736194708828
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_11": -6520681466705857426
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_110": 8970857210402120221
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_111": -8824442592245964860
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_112": -7092494144217939599
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_113": 8108387324395362391
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_114": -127274336472550298
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_115": 1532396179300746024
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_116": -1006254451785744815
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_117": 3296664043645542126
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_118": 316901918996145023
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_119": 3107726457328054319
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_12": 5341391502058828530
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_120": -4873678910249773057
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_121": 4569672861583796651
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_122": -1792657915873221394
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_123": 1283166064948855790
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_124": 4967833647530678684
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_125": -1831238228029418102
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_126": -6220122773046391326
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_127": -7817119384009742976
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_128": -1085933153956727143
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_129": 7548368743799319042
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_13": -7444929230566016032
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_130": 4478694096595945182
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_131": 1371215566799400111
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_132": 7489004068304334477
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_133": 8537599392584246501
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_134": -6423496388656151557
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_135": 4494372401567170303
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_136": 6313603016739990616
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_137": -881817660947621583
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_138": -7107404359999952241
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_139": 3026989042260743305
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_14": -8233465499544390322
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_140": 1632319769077353014
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_141": -3362755137075653615
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_142": 3291711195685508437
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_143": 7836967571947152351
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_144": -7993606185727727772
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_145": 4929296933797247612
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_146": -8377327714219010727
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_147": 7131578856711739854
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_148": 5863604497328570015
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_149": 3219628844673190994
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_15": -4207333471933722309
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_150": 7778502681628427838
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_151": -6406316146351093911
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_152": -8696648958449062600
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_153": 3459179241940225143
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_154": -7769361026622303650
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_155": -8166299926957954096
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_156": 6277356813938524196
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_157": 435182647889848863
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_158": 3969844359782150148
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_159": -6485193365506563570
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_16": 8169798302430550370
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_160": -4900291038222343340
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_161": 1136005340961515179
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_162": -4370248893302083621
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_163": 2724626403974186128
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_164": -7451426115280810978
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_165": 1039565419946530828
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_166": 2923075905568506902
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_167": 8198831524999251024
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_168": -7003953511251991203
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_169": -2030178685574637313
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_17": -5636260934495211957
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_170": -8517373374663609072
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_171": 9101572392695749932
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_172": 1401835544419582611
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_173": -7480598492041238928
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_174": -7554129263164686795
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_175": -7206156189337947709
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_176": -7325901510233611550
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_177": 8504813702549044882
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_178": 181752036913126632
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_179": -5404744623343261615
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_18": -542360551831071988
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_180": -6466088669777447372
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_181": -6000688562321008226
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_182": -8116975299468395068
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_183": -8228025018751815454
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_184": -2242930418005547033
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_185": 2610443842114397069
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_186": 1665706955624881142
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_187": 2098905085254491047
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_188": -8682845512294497582
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_189": 3821163882814091776
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_19": 414906854172217429
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_190": 8363904337462123718
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_191": -2612640963494531318
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_192": 5705605519107096718
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_193": 4545724158827522180
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_194": 7920323048383360150
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_195": -2783060494607838064
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_196": -3531440690995627926
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_197": -1345716867488478826
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_198": 9182732860196448072
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_199": 2722062205974531995
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_2": -6229313284008293593
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_20": 7033486711186145186
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_200": 8931499941111014549
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_201": -426612413811769872
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_202": -4969948977765468850
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_203": -5459790087971227804
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_204": 5581960172720809237
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_205": 5214407025661863275
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_206": -9107098478518144666
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_207": 6257869011289086055
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_208": 8286672956183439257
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_209": 4728894168754612892
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_21": -8291966767211021126
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_210": -2182528211671917247
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_211": -289556587688533363
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_212": -3578585634954756052
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_213": -587984144337686028
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_214": -3601354600160434020
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_215": 3895197274467442794
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_216": -1154621857303300936
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_217": -233083560614441196
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_218": 5535528549220524984
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_219": -8249900538536993079
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_22": -615205208817534838
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_220": 3712466086090119191
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_221": 40442368132901931
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_222": -4815080711555741928
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_223": -6139772526017757681
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_224": 6336811391982340700
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_225": -7321818143719632157
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_226": -4766659415173823556
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_227": -2961800236544038079
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_228": -152160865565078587
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_229": -3007606132818647503
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_23": 2291564131819030446
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_230": -8931493584983506259
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_231": 2564166848820679545
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_232": -5893090976103968440
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_233": -6543281749265224988
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_234": 7819491454472973483
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_235": 5942149418594679728
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_236": 7135552722023751848
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_237": -514190708590375133
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_238": 3962341810490204640
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_239": -8069650316399811012
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_24": -895604704901857496
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_240": 2585525405061037575
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_241": 1926819329652236134
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_242": 8029915990965878754
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_243": 5629880732868782139
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_244": -8631741650991046024
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_245": 6931151264651433183
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_246": 8724066214597803984
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_247": 1077817258604811125
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_248": 1314569014682761650
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_249": 6806194203514558
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_25": -741323583530064627
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_250": -3466782161681056636
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_251": -4551546887223021527
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_252": 4109594967638765069
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_253": 7190505151824475662
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_254": -8586998746127250185
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_255": 4464011923726900741
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_256": 5660484398747556949
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_257": 1427029163525092670
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_258": -204451934578652073
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_259": 6214110372294936083
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_26": 6457380772191102211
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_260": 8216428893422481658
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_261": 4215553993237861490
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_262": -7998221790407982283
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_263": -3045614467314460249
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_27": 7889836243155735054
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_28": 3365009372566187168
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_29": -7876073470367318121
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_3": -6513322537023740183
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_30": -2757837710094556109
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_31": 2944659983985459226
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_32": -6195414467264819154
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_33": -7681058698102495018
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_34": 8309021620713219656
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_35": -8739892970556393930
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_36": -3169095653603047784
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_37": -7580277281117539563
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_38": -1842091083361357141
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_39": 6803524370193056295
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_4": 5554467861752063964
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_40": -6092386147773489677
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_41": -1217809572021257107
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_42": 6119745785733044687
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_43": -7978047106942123666
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_44": -8488425543926645577
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_45": -6420751095105777273
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_46": 6192445234338838127
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_47": -3464577599822909775
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_48": -2003617052260201742
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_49": 1857395212755525076
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_5": 5278655298818392846
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_50": -3894263767237673159
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_51": 5314649733324711100
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_52": -6644527113922293977
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_53": 5612828810015622769
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_54": 742293241309371567
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_55": 4305771126738275247
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_56": -2552431105347644293
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_57": 4853807930484095521
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_58": 462541066322193984
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_59": 7033863304352312631
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_6": 150236181600277245
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_60": -6446419832775953707
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_61": -7560022840347636466
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_62": -6172484270121734619
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_63": -5581764654894538833
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_64": 8987845844574190377
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_65": 4163261558062279951
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_66": 5820402470904384821
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_67": -1942690277797250412
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_68": 3814406013117294342
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_69": 4353641651094821916
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_7": -4803867474747081054
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_70": -405587936925166382
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_71": 6400942400665830185
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_72": -2808606746613253586
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_73": 2814049107707656049
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_74": 5682585708039461842
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_75": 4743709002091341156
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_76": 5539670239144293766
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_77": -5930294400273719954
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_78": 3329209157461634420
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_79": -3824533859131326842
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_8": 7262981209731211111
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_80": 815914339500917047
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_81": 1655178560956696370
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_82": 3582533263507881429
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_83": -3620020936837247916
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_84": 9123966462712562838
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_85": 2637696029678309644
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_86": 2843139667229674688
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_87": -216123743049077476
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_88": -6283152048303733467
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_89": 8580893308416878418
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_9": -4650196524616824335
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_90": 3103550242631587540
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_91": 8339620785475050594
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_92": -4371834707896635347
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_93": 5759183715955512495
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_94": -1918137120905405124
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_95": -2416191650090127644
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_96": 6027682806136019287
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_97": 3710653541158900093
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_98": -5919777148184753991
+      "s\u1EF1 ph\u1EABn n\u1ED9 c\u1EE7a ng\u01B0\u1EDDi l\u1EEDa_99": 4176710557965778097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
