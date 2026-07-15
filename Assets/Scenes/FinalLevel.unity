@@ -6210,7 +6210,7 @@ MonoBehaviour:
   glowSpeed: 2
   minGlowAlpha: 0.3
   maxGlowAlpha: 1
-  nextSceneName: 
+  nextSceneName: Final
   requireBossDefeated: 1
   fadeDuration: 1
   winTextDuration: 1
