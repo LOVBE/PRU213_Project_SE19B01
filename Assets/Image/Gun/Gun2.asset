@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Gun2
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: Gun2
-  icon: {fileID: -1937992276944667789, guid: e89072bcabf5c554fa330d6d7304a37f, type: 3}
-  weaponSprite: {fileID: -1937992276944667789, guid: e89072bcabf5c554fa330d6d7304a37f, type: 3}
-  requiredLevel: 4
+  icon: {fileID: 21300000, guid: 5a3fc792274ee52498be39407ac29873, type: 3}
+  weaponSprite: {fileID: 21300000, guid: 5a3fc792274ee52498be39407ac29873, type: 3}
+  requiredLevel: 2
   damage: 10
   fireRate: 0.2

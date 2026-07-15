@@ -27,12 +27,11 @@ public class BossDash : MonoBehaviour
     // Cho script khác (BossFollow) kiểm tra xem Boss có đang trong lúc lao hay không
     public bool IsDashing { get; private set; } = false;
 
-    // Cho script điều khiển bên ngoài (BossSkillController) biết Boss có đang bận dash/telegraph không
     public bool IsBusy => isBusy;
 
     [Header("Visual Feedback (tuỳ chọn)")]
     public SpriteRenderer sr;            // Để trống sẽ tự tìm trên chính object này
-    public Color telegraphColor = new Color(1f, 0.4f, 0.4f); // màu báo hiệu sắp lao
+    public Color telegraphColor = new Color(1f, 0.4f, 0.4f); 
 
     private Rigidbody2D rb;
     private Transform player;
