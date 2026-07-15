@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64f68199a23ab51409ab80b83d89c57f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillThunderStorm
-  thunderCount: 10
+  thunderCount: 5
   strikeDelay: 1
-  damagePerStrike: 50
+  damagePerStrike: 100
   searchRadius: 999
   strikeRadius: 2
   enemyMask:
